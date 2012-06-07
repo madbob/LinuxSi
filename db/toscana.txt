@@ -1,0 +1,36 @@
+Arezzo|Essedi|Arezzo|http://www.essedi.it/negozio-informatica-AREZZO-0547A030
+Arezzo|Sisu Soluzioni|Arezzo|http://www.sisu.it
+Borgo San Lorenzo|FlashInLab Tecnology|Firenze|http://www.flashinlabs.biz
+Borgo San Lorenzo|Essedi|Firenze|http://www.essedi.it/negozio-informatica-BORGO%20SAN%20LORENZO-0501LL87
+Cantagallo|Powerweb|Prato|http://www.pow-web.it
+capannori|Associazione Hacking Labs|Lucca|http://www.hackinglabs.it
+Coreglia Antelminelli|Stormdrop Informatica|Lucca|http://www.stormdrop.com
+Empoli|Computer Line|Firenze|http://computerline.altervista.org/
+Empoli|Essedi|Firenze|http://www.essedi.it/negozio-informatica-EMPOLI-05053826
+Firenze|Essedi|Firenze|http://www.essedi.it/negozio-informatica-FIRENZE-05053818
+Grosseto|Essedi|Grosseto|www.essedi.it/negozio-informatica-GROSSETO-05053706
+fucecchio|E-Office|Firenze|http://www.e-officecom.com
+Grosseto|ANK Computer|Grosseto|http://www.ank.it/
+Livorno|Doc Informatica|Livorno|http://www.doc-informatica.it/
+livorno|Essedi|Livorno|http://www.essedi.it/negozio-informatica-LIVORNO-05053722
+Lucca|Ennebi Computer|Lucca|http://www.ennebi.it
+Massa|Essedi|Massa-Carrara|http://www.essedi.it/negozio-informatica-MASSA-05053725
+Montecatini Terme|Essedi|Pistoia|http://www.essedi.it/negozio-informatica-MONTECATINI%20TERME-05053702
+Pescia|NBComputers|Pistoia|http://www.ennebi.it
+Pisa|Essedi|Pisa|http://www.essedi.it/negozio-informatica-PISA-05050489
+Pisa|ICT Pisa|Pisa|http://www.ictpisa.it/it/products.asp?idArea=-1
+Pistoia|Essedi|Pistoia|http://www.essedi.it/negozio-informatica-PISTOIA-05056360
+Pistoia|Platinum Services|Pistoia|http://www.platinumservices.it
+Pomarance|AS Infonet|Pisa|http://www.asinfonet.it
+Pontedera|Essedi|Pisa|http://www.essedi.it/negozio-informatica-PONTEDERA-05054605
+Prato|Elettro Potenza|Prato|http://www.elpwifi.net
+Prato|Essedi|Prato|http://www.essedi.it/negozio-informatica-PRATO-0501LA74
+Prato|Sedecom|Prato|http://www.sedecom.it
+PRATO|Planet Price|Prato|http://www.planetprice.it 
+San Giovanni Valdarno|Essedi|Arezzo|http://www.essedi.it/negozio-informatica-SAN%20GIOVANNI%20VALDARNO-0538A141
+San Giovanni Valdarno|EuroShop|Arezzo|http://www.euroshop.it
+Sansepolcro|Essedi|Arezzo|http://www.essedi.it/negozio-informatica-SANSEPOLCRO-05053704
+Sesto Fiorentino|Luca Ricci|Firenze|http://www.uploadsnc.it
+Siena|Essedi|Siena|http://www.essedi.it/negozio-informatica-SIENA-05053710
+Poggibonsi|Essedi|Siena|http://www.essedi.it/negozio-informatica-POGGIBONSI-05380033
+Viareggio|Essedi|Lucca|http://www.essedi.it/negozio-informatica-VIAREGGIO-05053825

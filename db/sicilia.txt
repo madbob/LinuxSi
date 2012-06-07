@@ -1,0 +1,21 @@
+Agrigento|Essedi|Agrigento|http://www.essedi.it/negozio-informatica-AGRIGENTO%20-%20VILLAGGIO%20MOSE%27-05053694
+Canicatti|Essedi|Agrigento|http://www.essedi.it/negozio-informatica-CANICATTI%27-05055224
+Bagheria|Data Studio|Palermo|http://www.datastudio.it/
+Caltagirone|G@laxy Systems|Catania|http://www.galaxysystems.eu
+Catania|Essedi|Catania|http://www.essedi.it/negozio-informatica-CATANIA-0501UC66
+Caltagirone|Essedi|Catania|http://www.essedi.it/negozio-informatica-CALTAGIRONE-05050771
+Alcamo|Essedi|Trapani|http://www.essedi.it/negozio-informatica-ALCAMO-05200490
+Messina|Essedi|Messina|http://www.essedi.it/negozio-informatica-MESSINA-0542A061
+Misterbianco|Hardware Internet Shop|Catania|http://www.hardwareinternetshop.com
+Palermo|El Dorado Shop|Palermo|http://www.eldoradoshop.net
+Bolognetta|Essedi|Palermo|http://www.essedi.it/negozio-informatica-Bolognetta-05200569
+Palermo|Essedi|Palermo|http://www.essedi.it/negozio-informatica-PALERMO-05200185
+Caccamo|Essedi|Palermo|http://www.essedi.it/negozio-informatica-CACCAMO-05056906
+Palermo|Essedi|Palermo|http://www.essedi.it/negozio-informatica-PALERMO-05057016
+Palermo|Infofast Consulting|Palermo|http://www.infofastconsulting.it
+Priolo Gargallo|Hardware.Point.Service|Siracusa|http://www.h-ps.info
+San Cataldo|Software & sistemi di Celeste R.|Caltanissetta|http://www.softwareesistemi.it/
+San Giovanni La Punta|Tech Point Sas|Catania|http://www.techpoint.catania.it
+Trapani|Cartufficio|Trapani|http://web.tiscali.it/cartufficio_online/
+Trapani|SOS PC Shop|Trapani|http://www.sospcshop.com
+Valdina|FM System|Messina|http://www.fmsystem.it

@@ -1,0 +1,26 @@
+Agropoli|Bit e Byte|Salerno|http://www.bitebyte.biz
+Angri|F.G. Informatica|Salerno|http://www.fginformatica.net
+Avella|ASWI Informatica|Avellino|http://www.aswi.it
+Avellino|Essedi|Avellino|http://www.essedi.it/negozio-informatica-AVELLINO-05051295
+Ariano Irpino|Essedi|Avellino|http://www.essedi.it/negozio-informatica-ARIANO%20IRPINO-05057378
+Avellino|TecnoDigit Service|Avellino|http://www.tecnodigitservice.it
+battipaglia|Master Informatica|Salerno|http://www.masterinformatica.org
+Benevento|Essedi|Benevento|http://www.essedi.it/negozio-informatica-BENEVENTO-05051350
+Benevento|J2Be di Leonardo Armando Iarrusso|Benevento|http://www.j2be.com
+Casalnuovo di Napoli|Mc John S.r.l.|Napoli|http://www.mcjohn.it
+Santa Maria Capua Vetere|Essedi|Caserta|http://www.essedi.it/negozio-informatica-SANTA%20MARIA%20CAPUA%20VETERE-0501GK98
+Cellole|Teknotrend|Caserta|http://www.teknotrend.it
+Cento|MegaByte Sistemi Informatici|Ferrara|http://www.risparmiamo.it
+Frattamaggiore|Plug and Play|Napoli|http://www.plugandplay.it
+Marigliano|Ramses Tech|Napoli|http://www.ramses-tech.it
+Napoli|mcpc|Napoli|http://www.mcpc.it
+Pagani|S.T.I.|Salerno|http://www.stirodomonte.it
+Pomigliano d'Arco|8bit computers|Napoli|http://www.8bit.it/
+Roccarainola|IVS Multimedia|Napoli|http://www.ivsmultimedia.it/
+Salerno|Infocom di Roberto Ferrara|Salerno|http://www.infocomsuweb.it
+Salerno|Linuxit.it|Salerno|http://www.linuxit.it
+Salerno|VEGA INFORMATICA|Salerno|http://www.vegainformatica.net
+San Nicola La Strada|OmniaMedia|Caserta|http://www.omniamedia.net
+Santa Maria a Vico|Arkanoid|Caserta|https://sites.google.com/site/arkanoidpc/
+Ischia|Essedi|Napoli|http://www.essedi.it/negozio-informatica-ISCHIA%20-%20ISCHIA%20PORTO-05056557
+Polla|UniMedia Computers|Salerno|http://www.unimediacomputers.it

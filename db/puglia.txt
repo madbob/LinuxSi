@@ -1,0 +1,20 @@
+Putignano|Essedi|Bari|http://www.essedi.it/negozio-informatica-PUTIGNANO-05056134
+Bitonto|Essedi|Bari|http://www.essedi.it/negozio-informatica-BITONTO-0501PM98
+Altamura|Essedi|Bari|http://www.essedi.it/negozio-informatica-ALTAMURA-0501D576
+Bari|Multisoft Computer|Bari|http://www.reteimprese.it/MULTISOFT
+Bitonto|L'Altro Computer|Bari|http://www.altrocomputer.it
+Cerignola|ProjectStore|Foggia|http://www.projectstore.it
+Fasano|Infologika|Brindisi|http://www.infologika.it/
+Foggia|Essedi|Foggia|http://www.essedi.it/negozio-informatica-FOGGIA-05053692
+Lecce|S.I.S. Elettronica|Lecce|http://www.siselettronica.it
+Bitetto|MediaShop|Bari|http://www.mediashopstore.it/
+Mesagne|Garlach44|Brindisi|http://www.garlach44.it
+Novoli|Passione PC|Lecce|http://www.passionepc.it
+Palagiano|Web Services|Taranto|http://www.webser.net
+Rutigliano|Rehardwareing|Bari|http://www.rehardwareing.com
+Ruvo di Puglia|Mr. Computer|Bari|http://www.rutigliani.com
+San Giovanni Rotondo|Essedi|Foggia|http://www.essedi.it/negozio-informatica-SAN%20GIOVANNI%20ROTONDO-05053729
+San Giovanni Rotondo|Selene Informatica|Foggia|http://www.seleneinformatica.it
+Terni|E.T.I. Elettronica|Terni|http://www.etitech.net
+Brindisi|Essedi|Brindisi|http://www.essedi.it/negozio-informatica-BRINDISI-05053693
+Ostuni|Essedi|Brindisi|http://www.essedi.it/negozio-informatica-OSTUNI-05053666
