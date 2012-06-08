@@ -22,3 +22,4 @@ Torino|mambaSoft|Torino|http://www.mambastore.it/
 Valenza|Sedis Computers|Alessandria|http://www.sedis.it/
 Varallo|S4 Solutions|Vercelli|http://www.s4solutions.eu
 None|Office Pro Service|Torino|http://www.officeproservice.it
+Novara|Videocomputing|Novara|http://www.vcg.it/
