@@ -1,4 +1,4 @@
-]Arcore|TFI Computer S.r.l.|Milano|http://www.tficomputer.it
+Arcore|TFI Computer S.r.l.|Milano|http://www.tficomputer.it
 Bergamo|Essedi|Bergamo|http://www.essedi.it/negozio-informatica-BERGAMO-0501R887
 Bergamo|KOAN s.a.s.|Bergamo|http://www.koala.it
 Brugherio|Helpdeskcomputer|Milano|http://www.helpdeskcomputer.it/
