@@ -33,3 +33,4 @@ Sassuolo|Netkom Group|Modena|http://www.netkomgroup.it
 Sassuolo|Soft-Net|Modena|http://www.soft-net.it
 Savignano sul Rubicone|Electronics Adriatica|Forlì-Cesena|http://www.electronicsadriatica.it
 Soliera|Laboratori Aidan|Modena|http://www.aidan.it
+Correggio|Web-LAN|Reggio Emilia|http://www.web-lan.it/
