@@ -1,4 +1,5 @@
 Ancona|Tecno 3|Ancona|
+Marina di Montemarciano|Green Computer|Ancona|http://www.greencomputer.it/
 Mondavio|yTeck|Pesaro e Urbino|http://www.yteck.it/
 Jesi|Ciampistore online|Ancona|http://www.ciampistore.it
 Fano|yTeck|Pesaro e Urbino|http://www.yteck.it/
