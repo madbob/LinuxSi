@@ -195,11 +195,6 @@ foreach ($elenco_regioni as $region => $region_name) {
 		$result = null;
 
 		$attr = explode ('|', $shop);
-		if (count ($attr) != 4) {
-			echo $shop;
-			continue;
-		}
-
 		$site = $attr [3];
 		$prov = $attr [2];
 		$name = $attr [1];

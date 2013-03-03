@@ -77,19 +77,6 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   </script>
 
   <title><?php echo $title; ?></title>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-3626063-13']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 </head>
 <body>
 
@@ -99,9 +86,9 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 	<div id="payoff">La mappa dei negozi Linux friendly</div>
 
 	<div class="menu">
-		<a class="generalink" href="/">LinuxSi</a> |
-		<a class="generalink" href="/mappa/">Mappa</a> |
-		<a class="generalink" href="/partecipa/">Partecipa</a> |
+		<a class="generalink" href="/">LinuxSi</a>
+		<a class="generalink" href="/mappa/">Mappa</a>
+		<a class="generalink" href="/partecipa/">Partecipa</a>
 		<a class="generalink" href="/contatti/">Contatti</a>
 
 		<p class="social">

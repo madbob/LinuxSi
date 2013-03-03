@@ -18,7 +18,7 @@
 */
 
 require_once ('../funzioni.php');
-lugheader ('Mappa', null, array ('http://openlayers.org/api/OpenLayers.js', 'mappa.js'));
+lugheader ('Mappa', null, array ('http://code.jquery.com/jquery-1.9.1.min.js', 'http://openlayers.org/api/OpenLayers.js', 'mappa.js'));
 
 $transformed = false;
 
