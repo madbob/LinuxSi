@@ -242,3 +242,13 @@ a:hover {
 	width: 400px;
 	overflow:hidden;
 }
+
+#map {
+	background-color: #F00;
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	top: 169px;
+	width: 100%;
+}
+

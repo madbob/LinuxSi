@@ -111,7 +111,6 @@ lugheader ('LinuxSi');
     <td style="width: 25%;" class="regioni">
       <?php
         foreach ($elenco_regioni as $file => $nome) {
-          if (in_array($file, array('emilia','friuli','trentino','valle'))) {continue;}
           echo '<a id="' . $file . '" class="generalink" href="/'.$file.'/">' . $nome . '</a><br>';
         }
       ?>

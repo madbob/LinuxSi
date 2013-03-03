@@ -25,9 +25,7 @@ $elenco_regioni = array (
   "basilicata"            => "Basilicata",
   "calabria"              => "Calabria",
   "campania"              => "Campania",
-  "emilia"                => "Emilia Romagna",
   "emilia-romagna"        => "Emilia Romagna",
-  "friuli"                => "Friuli Venezia Giulia",
   "friuli-venezia-giulia" => "Friuli Venezia Giulia",
   "lazio"                 => "Lazio",
   "liguria"               => "Liguria",
@@ -39,13 +37,13 @@ $elenco_regioni = array (
   "sardegna"              => "Sardegna",
   "sicilia"               => "Sicilia",
   "toscana"               => "Toscana",
-  "trentino"              => "Trentino Alto Adige",
   "trentino-alto-adige"   => "Trentino Alto Adige",
   "umbria"                => "Umbria",
-  "valle"                 => "Valle d'Aosta",
   "valle-daosta"          => "Valle d'Aosta",
   "veneto"                => "Veneto"
 );
+
+$data_folder = 'data';
 
 function lugheader ($title, $extracss = null, $extrajs = null) {
 ?>
@@ -102,6 +100,7 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 
 	<div class="menu">
 		<a class="generalink" href="/">LinuxSi</a> |
+		<a class="generalink" href="/mappa/">Mappa</a> |
 		<a class="generalink" href="/partecipa/">Partecipa</a> |
 		<a class="generalink" href="/contatti/">Contatti</a>
 
