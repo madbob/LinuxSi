@@ -56,6 +56,8 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Nobile|Nobile:b" />
   <link href="/css/main.css" rel="stylesheet" type="text/css" />
 
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
   <?php
     if ($extracss != null)
       foreach ($extracss as $e) {
@@ -104,23 +106,36 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 
 function lugfooter () {
 ?>
-<div id="footer">
-</div>
-<!-- Piwik -->
-<!--
 
+<div id="ils_footer">
+	<div class="contents">
+		<div class="unusedblock">&nbsp;</div>
+		<div class="unusedblock">&nbsp;</div>
+		<div class="unusedblock">&nbsp;</div>
+
+		<div class="block">
+			<h2>Network</h2>
+			<script src="http://www.linux.it/external/widgetils.php?referrer=linux" type="text/javaScript"></script>
+			<div id="widgetils"></div>
+		</div>
+	</div>
+
+	<div style="clear: both"></div>
+</div>
+
+<!-- Piwik -->
 <script type="text/javascript">
 var pkBaseURL = (("https:" == document.location.protocol) ? "https://pergamena.lugbs.linux.it/" : "http://pergamena.lugbs.linux.it/");
 document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
 </script><script type="text/javascript">
 try {
-var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 10);
 piwikTracker.trackPageView();
 piwikTracker.enableLinkTracking();
 } catch( err ) {}
-</script><noscript><p><img src="http://pergamena.lugbs.linux.it/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
--->
+</script><noscript><p><img src="http://pergamena.lugbs.linux.it/piwik.php?idsite=10" style="border:0" alt="" /></p></noscript>
 <!-- End Piwik Tracking Code -->
+
 </body>
 </html>
 
