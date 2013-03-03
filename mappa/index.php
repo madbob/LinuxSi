@@ -60,5 +60,5 @@ if ($transformed == false) {
 <input type="hidden" name="coords_file" value="../<?php echo $data_folder ?>/geo.txt" />
 <div id="map"></div>
 
-<?php lugfooter (); ?>
+<!-- Qui il footer non c'e' di proposito, la pagina e' interamente occupata dalla mappa -->
 

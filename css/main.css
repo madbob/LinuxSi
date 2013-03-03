@@ -78,7 +78,7 @@ a:hover {
 
 #introTabel {
 	width: 800px;
-	margin: 8px auto;
+	margin: 30px auto;
 	border: 0px;
 }
 
@@ -245,8 +245,13 @@ a:hover {
 	text-transform: uppercase;
 }
 
+#ils_footer .contents img {
+	display: inline-block;
+}
+
 #ils_footer .contents .block a {
 	color: #FFFFFF;
+	border: 0;
 }
 
 .helpMessage {
