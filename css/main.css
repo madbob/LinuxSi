@@ -70,6 +70,12 @@ a:hover {
 	padding: 0;
 }
 
+.contentsBox {
+	width: 50%;
+	margin: auto;
+	min-height: 300px;
+}
+
 #introTabel {
 	width: 800px;
 	margin: 8px auto;
@@ -220,7 +226,7 @@ a:hover {
 	width: 210px;
 }
 
-#planet_footer .contents .block {
+#ils_footer .contents .block {
 	border: 1px solid rgba(255, 255, 255, 0.1);
 	display: inline;
 	float: left;
@@ -230,7 +236,7 @@ a:hover {
 	width: 210px;
 }
 
-#planet_footer .contents .block h2 {
+#ils_footer .contents .block h2 {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 	border-color: rgba(255, 255, 255, 0.15);
 	font-size: 1em;
@@ -239,7 +245,7 @@ a:hover {
 	text-transform: uppercase;
 }
 
-#planet_footer .contents .block a {
+#ils_footer .contents .block a {
 	color: #FFFFFF;
 }
 

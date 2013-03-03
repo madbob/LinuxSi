@@ -1,5 +1,7 @@
 <?php
-/*Codice della mappa dei negozi Linux-friendly italiani
+
+/*
+  Codice della mappa dei negozi Linux-friendly italiani
   Copyright (C) 2010-2013  Italian Linux Society - http://www.ils.org/
 
   This program is free software: you can redistribute it and/or modify
@@ -13,31 +15,31 @@
   GNU Affero General Public License for more details.
 
   You should have received a copy of the GNU Affero General Public License
-  along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
 ?>
+
 <?php
 require_once ('../funzioni.php');
 lugheader ('Contatti');
 ?>
-<table width="50%" align="center">
-<tr>
-	<td>
-		<p>
-			Per contattare il team LinuxSi per la segnalazione di un
-			nuovo negozio, per un commento, o pi&uacute;
-			semplicemente per un feedback, si mandi una mail a
-			<a href="mailto:roberto.guido@linux.it">roberto.guido@linux.it</a>.
-		</p>
 
-		<p>
-			LinuxSi &egrave; attualmente un progetto di
-			<a href="http://www.linux.it">Italian Linux Society</a>,
-			originariamente implementato e mantenuto da
-			<a href="http://www.dedasys.com/">DedaSys LLC</a>.
-		</p>
-	</td>
-</tr>
-</table>
-<?php
-  lugfooter ();
-?>
+<div class="contentsBox">
+	<p>
+		Per contattare il team LinuxSi per la segnalazione di un
+		nuovo negozio, per un commento, o pi&uacute;
+		semplicemente per un feedback, si mandi una mail a
+		<a href="mailto:roberto.guido@linux.it">roberto.guido@linux.it</a>.
+	</p>
+
+	<p>
+		LinuxSi &egrave; attualmente un progetto di
+		<a href="http://www.linux.it">Italian Linux Society</a>,
+		originariamente implementato e mantenuto da
+		<a href="http://www.dedasys.com/">DedaSys LLC</a>.
+	</p>
+</div>
+
+<?php lugfooter (); ?>
+

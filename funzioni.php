@@ -109,7 +109,18 @@ function lugfooter () {
 
 <div id="ils_footer">
 	<div class="contents">
-		<div class="unusedblock">&nbsp;</div>
+		<div class="block">
+			<span style="text-align: center; display: block">
+				<a href="http://www.gnu.org/licenses/agpl-3.0-standalone.html" rel="license">
+					<img src="/immagini/agpl3.svg" style="border-width:0" alt="AGPLv3 License">
+				</a>
+
+				<a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en_US" rel="license">
+					<img src="http://i.creativecommons.org/l/zero/1.0/80x15.png" style="border-width:0" alt="Creative Commons License">
+				</a>
+			</span>
+		</div>
+
 		<div class="unusedblock">&nbsp;</div>
 		<div class="unusedblock">&nbsp;</div>
 
