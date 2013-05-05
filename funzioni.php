@@ -294,7 +294,6 @@ piwikTracker.enableLinkTracking();
 
 function ultimo_aggiornamento () {
 ?>
-   <a href="http://github.com/madbob/LinuxSi/commits/">&raquo; Aggiornato al <?php print file_get_contents('../.ultimo_commit') ?>&nbsp;</a><br />
    <a href="mailto:roberto.guido@linux.it?subject=LinuxSi: segnalazione aggiornamento/errore/refuso">&raquo; Segnala&nbsp;</a>
 
 <?php

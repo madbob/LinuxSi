@@ -230,7 +230,7 @@ a:hover {
 	border: 1px solid rgba(255, 255, 255, 0.1);
 	display: inline;
 	float: left;
-	margin: 20px 0;
+	margin: 20px 5px;
 	padding: 10px;
 	position: relative;
 	width: 210px;
@@ -243,6 +243,43 @@ a:hover {
 	margin: 1em 0 0.5em;
 	padding-bottom: 3px;
 	text-transform: uppercase;
+}
+
+#ils_footer .contents .block .form-text {
+	border: 1px solid #CCCCCC;
+	display: inline-block;
+	padding: 4px;
+	width: 95%;
+	margin: 2px 0;
+}
+
+#ils_footer .contents .block select {
+	border: 1px solid #CCCCCC;
+	display: inline-block;
+	padding: 4px;
+	width: 100%;
+}
+
+#ils_footer .contents .block .form-submit {
+	display: inline-block;
+	width: 100%;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: #E4E4E4 #D2D2D2 #B4B4B4;
+	border-image: none;
+	border-radius: 15px 15px 15px 15px;
+	border-style: solid;
+	border-width: 1px;
+	color: #3A3A3A;
+	cursor: pointer;
+	font-size: 0.929em;
+	font-weight: normal;
+	margin-bottom: 1em;
+	margin-right: 0.6em;
+	padding: 4px 17px;
+	text-align: center;
 }
 
 #ils_footer .contents img {
