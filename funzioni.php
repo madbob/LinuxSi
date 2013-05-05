@@ -91,7 +91,6 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 		<a class="generalink" href="/">LinuxSi</a>
 		<a class="generalink" href="/mappa/">Mappa</a>
 		<a class="generalink" href="/partecipa/">Partecipa</a>
-		<a class="generalink" href="/contatti/">Contatti</a>
 
 		<p class="social">
 			<!-- Icone prese da http://kooc.co.uk/need-some-up-to-date-social-media-icons -->

@@ -30,25 +30,31 @@ lugheader ('Partecipa');
 		<b>Aiutaci a mantenere LinuxSi aggiornato!</b>
 	</p>
 	<p>
-		<a href="/contatti">Contattaci</a> per segnalare
-		negozi non ancora indicizzati, negozi non
-		pi&uacute; esistenti o per commenti.
+		<a href="mailto:roberto.guido@linux.it">Contattaci</a> per segnalare negozi non
+		ancora indicizzati, negozi non pi&uacute; esistenti o per commenti.
 	</p>
 	<p>
-		Sarebbe inoltre utile verificare personalmente
-		che i rivenditori qui elencati esistano davvero,
-		magari facendoci un salto. Esiste davvero il
-		negozio? Vendono quello che dicono di vendere?
-		Conoscono Linux? Facci sapere!
+		Sarebbe inoltre utile verificare personalmente che i rivenditori qui elencati
+		esistano davvero, magari facendoci un salto. Esiste davvero il negozio? Vendono
+		quello che dicono di vendere? Conoscono Linux? Facci sapere!
 	</p>
 	<p>
-		Puoi inoltre partecipare direttamente alla stesura del codice e del database, sfruttando il
+		Puoi inoltre partecipare direttamente alla stesura del codice e del database,
+		accedendo al
 		<a class="generalink" href="http://github.com/madbob/LinuxSi">repository GitHub</a>.
-		Il codice sorgente del sito &egrave; distribuito con licenza <a href="http://www.gnu.org/licenses/agpl-3.0-standalone.html">AGPLv3</a>, mentre i dati sono
-		pubblicati in licenza <a href="http://creativecommons.org/publicdomain/zero/1.0/legalcode">CC0</a>.
+		Il codice sorgente del sito &egrave; distribuito con licenza
+		<a href="http://www.gnu.org/licenses/agpl-3.0-standalone.html">AGPLv3</a>, mentre i
+		dati sono pubblicati in licenza
+		<a href="http://creativecommons.org/publicdomain/zero/1.0/legalcode">CC0</a>.
 	</p>
+
+	<hr />
+
 	<p>
-		<b>Partecipa! Te ne saremo eternamente grati!</b>
+		LinuxSi &egrave; attualmente un progetto di
+		<a href="http://www.linux.it">Italian Linux Society</a>,
+		originariamente implementato e mantenuto da
+		<a href="http://www.dedasys.com/">DedaSys LLC</a>.
 	</p>
 </div>
 
