@@ -67,7 +67,9 @@ function ask_geocache ($c) {
 }
 
 function ask_nominatim ($c) {
-	$location = file_get_contents ('http://nominatim.openstreetmap.org/search?format=xml&q=' . $c . ',Italia');
+	$location = @file_get_contents ('http://nominatim.openstreetmap.org/search?format=xml&q=' . $c . ',Italia');
+	if ($location == false)
+		return null;
 
 	$doc = new DOMDocument ();
 	if ($doc->loadXML ($location, LIBXML_NOWARNING) == false)
@@ -105,7 +107,9 @@ function ask_nominatim ($c) {
 }
 
 function ask_geonames ($c) {
-	$location = file_get_contents ('http://api.geonames.org/search?username=madbob&q=' . $c . '&country=IT');
+	$location = @file_get_contents ('http://api.geonames.org/search?username=madbob&q=' . $c . '&country=IT');
+	if ($location == false)
+		return null;
 
 	$doc = new DOMDocument ();
 	if ($doc->loadXML ($location, LIBXML_NOWARNING) == false)
@@ -173,9 +177,7 @@ function write_geo_file ($name, $contents) {
 		riga del file, la quale viene altrimenti ignorata da OpenLayer
 	*/
 	if (file_put_contents ($data_folder . '/' . $name, join ("\n", $contents) . "\n") === false)
-		echo "Errore nel salvataggio del file\n";
-	else
-		echo "I dati sono stati scritti nel file '$name'\n";
+		log_mail ("Errore nel salvataggio del file");
 }
 
 init_geocache ();
@@ -216,7 +218,7 @@ foreach ($elenco_regioni as $region => $region_name) {
 			$rows [] = "$lat\t$lon\t$name\t<a href=\"$site\">$site</a>\t16,19\t-8,-19\thttp://lugmap.it/images/icon.png";
 		}
 		else {
-			echo "Impossibile gestire la zona '$city', si consiglia l'analisi manuale\n";
+			log_mail ("Impossibile gestire la zona '$city', si consiglia l'analisi manuale");
 		}
 	}
 }
