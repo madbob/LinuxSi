@@ -30,8 +30,13 @@ lugheader ('Partecipa');
 		<b>Aiutaci a mantenere LinuxSi aggiornato!</b>
 	</p>
 	<p>
-		<a href="mailto:roberto.guido@linux.it">Contattaci</a> per segnalare negozi non
+		<a href="mailto:lugmap@linux.it">Contattaci</a> per segnalare negozi non
 		ancora indicizzati, negozi non pi&uacute; esistenti o per commenti.
+	</p>
+	<p>
+		Nota bene: vengono approvati solo i rivenditori che hanno un sito, e sul sito
+		viene espressamente citata l'attivit&agrave; di vendita di computer con
+		Linux o senza sistema operativo!
 	</p>
 	<p>
 		Sarebbe inoltre utile verificare personalmente che i rivenditori qui elencati
