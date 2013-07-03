@@ -1,4 +1,3 @@
-Ancona|Tecno 3|Ancona|
 Marina di Montemarciano|Green Computer|Ancona|http://www.greencomputer.it/
 Mondavio|yTeck|Pesaro e Urbino|http://www.yteck.it/
 Jesi|Ciampistore online|Ancona|http://www.ciampistore.it
@@ -9,3 +8,4 @@ Fossombrone|Essedi|Pesaro e Urbino|http://www.essedi.it
 Porto San Giorgio|Punto Informatica|Ascoli Piceno|http://www.puntoinformatica.com
 San Benedetto del Tronto|Tecnoplanet|Ascoli Piceno|http://www.tecnoplanet.it
 Sant'Angelo in Vado|perLinux.it|Pesaro e Urbino|http://www.perlinux.it
+Sforzacosta|MercurioNet|Macerata|http://www.mercurio.it/
