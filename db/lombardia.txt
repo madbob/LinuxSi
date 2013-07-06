@@ -1,22 +1,15 @@
-Arcore|TFI Computer S.r.l.|Milano|http://www.tficomputer.it
 Bergamo|Essedi|Bergamo|http://www.essedi.it/negozio-informatica-BERGAMO-0501R887
 Bergamo|KOAN s.a.s.|Bergamo|http://www.koala.it
-Brugherio|Helpdeskcomputer|Milano|http://www.helpdeskcomputer.it/
+Cazzano Sant'Andrea|Sunflower Computers|Bergamo|http://www.sunflower-computers.com
+Curno|CD Bergamo(Computer Discount)|Bergamo|http://www.cdbergamo.it
+Treviolo|Centro Assistenza Computers|Bergamo|http://www.cca.it
 Calcinato|Infogest Informatica|Brescia|http://www.infogestinformatica.it/
+Coccaglio|Pc-Brescia.com|Brescia|http://www.pc-brescia.com/
+Pozzolengo|3MP Computer|Brescia|http://www.3mpcomputer.it
 Canegrate|X-SYSTEM|Milano|http://www.x-buy.it
 Carugate|MPC computer|Milano|http://www.mpccomputer.it/
 Cassina de' Pecchi|T&Nsolutions|Milano|http://www.initpc.it
-Cazzano Sant'Andrea|Sunflower Computers|Bergamo|http://www.sunflower-computers.com
 Cernusco sul Naviglio|Essepi Informatica|Milano|http://www.essepiinformatica.it
-Cinisello Balsamo|Link Up|Milano|
-Coccaglio|Pc-Brescia.com|Brescia|http://www.pc-brescia.com/
-Cremona|Digicolor.net|Cremona|http://www.digicolor.net
-Curno|CD Bergamo(Computer Discount)|Bergamo|http://www.cdbergamo.it
-Fenegrò|Mediaservice|Como|http://www.mediaservicesnc.it/
-Lecco|YetOpen|Lecco|http://www.yetopen.it/
-Leggiuno|VideoSuono|Varese|http://www.videosuono.net
-Levata|Pixel|Mantova|http://www.paolomelara.it
-Luino|Computer Galaxy|Varese|http://www.galaxycomputer.it
 Milano|Aris Computer|Milano|http://www.ariscomputer.com
 Milano|Delta Elettronica|Milano|http://www.deltacomp.it/
 Milano|Essedi|Milano|http://www.essedi.it/negozio-informatica-MILANO-05053820
@@ -26,20 +19,26 @@ Milano|NetGang|Milano|http://www.netgang.it
 Milano|Plug and Play Informatica|Milano|http://www.plugandplayinformatica.it/
 Milano|SNP Computers|Milano|http://www.snp.it
 Milano|Wait State|Milano|http://www.waitstate.it
-Monguzzo|R.P.M. 2000|Como|http://www.rpm2000.it
-Nibionno|Infinitech|Lecco|http://www.infinitech.it
 Novate Milanese|PML Computer|Milano|http://www.pmlcomputer.it
-Pandino|M. & C. Computer|Cremona|http://www.meccomputer.it
-Pozzolengo|3MP Computer|Brescia|http://www.3mpcomputer.it
-Saronno|PC Generation|Varese|http://www.pcgen.it
 Sedriano|Computer Guru|Milano|http://www.computerguru.it
-Treviolo|Centro Assistenza Computers|Bergamo|http://www.cca.it
 Tribiano|yTeck|Milano|http://www.yteck.it/
-Vigevano|Dr. Stein|Pavia|http://www.drstein.it
+Cremona|Digicolor.net|Cremona|http://www.digicolor.net
+Pandino|M. & C. Computer|Cremona|http://www.meccomputer.it
 Como|Essedi|Como|http://www.essedi.it/negozio-informatica-COMO-05053724
+Como|Restorepc.it|Como|http://www.restorepc.it
 Mozzate|Essedi|Como|http://www.essedi.it/negozio-informatica-MOZZATE-05053709
 Lurago d'Erba|Essedi|Como|http://www.essedi.it/negozio-informatica-LURAGO%20D%27ERBA-0537A143
-Como|Restorepc.it|Como|http://www.restorepc.it
+Fenegrò|Mediaservice|Como|http://www.mediaservicesnc.it/
+Monguzzo|R.P.M. 2000|Como|http://www.rpm2000.it
+Lecco|YetOpen|Lecco|http://www.yetopen.it/
+Nibionno|Infinitech|Lecco|http://www.infinitech.it
+Varese|Essedi|Varese|http://www.essedi.it/negozio-informatica-VARESE-05053823
+Leggiuno|VideoSuono|Varese|http://www.videosuono.net
+Luino|Computer Galaxy|Varese|http://www.galaxycomputer.it
+Saronno|PC Generation|Varese|http://www.pcgen.it
+Vigevano|Dr. Stein|Pavia|http://www.drstein.it
 Pavia|Essedi|Pavia|http://www.essedi.it/negozio-informatica-PAVIA-0501EA38
 Pavia|Get Ready|Pavia|http://www.getready.it
-Varese|Essedi|Varese|http://www.essedi.it/negozio-informatica-VARESE-05053823
+Arcore|TFI Computer S.r.l.|Monza e Brianza|http://www.tficomputer.it
+Brugherio|Helpdeskcomputer|Monza e Brianza|http://www.helpdeskcomputer.it/
+Levata|Pixel|Mantova|http://www.paolomelara.it
