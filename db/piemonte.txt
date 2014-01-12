@@ -1,6 +1,6 @@
 Alessandria|Essedi|Alessandria|http://www.essedi.it/negozio-informatica-ALESSANDRIA-05050024
 Tortona|Essedi|Alessandria|http://www.essedi.it/negozio-informatica-TORTONA-05054433
-biella|MediaCreation|Biella|http://www.mediacreation.it
+Biella|MediaCreation|Biella|http://www.mediacreation.it
 Bra|Valeriano Store|Cuneo|http://www.valeriano.net
 Carpignano Sesia|Frabernet|Novara|http://www.frabernet.com/
 Castiglione Torinese|Digital Network|Torino|http://www.digitalnetwork.eu
@@ -23,3 +23,4 @@ Valenza|Sedis Computers|Alessandria|http://www.sedis.it/
 Varallo|S4 Solutions|Vercelli|http://www.s4solutions.eu
 None|Office Pro Service|Torino|http://www.officeproservice.it
 Novara|Videocomputing|Novara|http://www.vcg.it/
+Grange di Front|M-tech|Torino|http://m-techpc.blogspot.it/
