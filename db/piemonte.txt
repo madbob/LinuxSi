@@ -1,5 +1,3 @@
-Alessandria|Essedi|Alessandria|http://www.essedi.it/negozio-informatica-ALESSANDRIA-05050024
-Tortona|Essedi|Alessandria|http://www.essedi.it/negozio-informatica-TORTONA-05054433
 Biella|MediaCreation|Biella|http://www.mediacreation.it
 Bra|Valeriano Store|Cuneo|http://www.valeriano.net
 Carpignano Sesia|Frabernet|Novara|http://www.frabernet.com/
@@ -7,7 +5,6 @@ Castiglione Torinese|Digital Network|Torino|http://www.digitalnetwork.eu
 Cervasca|Sguang Informatica|Cuneo|http://www.sguanginformatica.com
 Feletto|Computer & C.|Torino|http://www.dapa.it
 Lusernetta|Solution PC|Torino|http://www.solutionpc.net
-Novara|Essedi|Novara|http://www.essedi.it/negozio-informatica-NOVARA-05053728
 Omegna|Mythos.it|Verbano Cusio Ossola|http://www.mythoscomputer.com
 Pino Torinese|Digital Network|Torino|http://www.digitalnetwork.eu
 Piossasco|Computer Cornershop|Torino|http://www.computercornershop.com

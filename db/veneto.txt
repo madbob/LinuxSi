@@ -1,13 +1,10 @@
 Adria|PianetaTecno|Rovigo|http://www.pianetatecno.com
-Ponte nelle Alpi|Essedi|Belluno|http://www.essedi.it/negozio-informatica-PONTE%20NELLE%20ALPI-05052042
 Brendola|Compuphone|Vicenza|http://www.compuphone.it
 Camisano Vicentino|AZT Computer|Vicenza|http://www.aztcomputer.com
 Castelfranco Veneto|Tre-Bi Computers|Treviso|http://www.tre-bi.eu
 cittadella|computer point segna|Padova|http://www.computerpointsegna.com
 Cogollo del Cengio|DataService|Vicenza|http://www.data-service.info
 Conselve|FreePC - NuovaFotografia|Padova|http://www.freepcitalia.com
-Iesolo|Essedi|Venezia|http://www.essedi.it/negozio-informatica-IESOLO-05053698
-Mestre|Essedi|Venezia|http://www.essedi.it/negozio-informatica-MESTRE-05053827
 Padova|All Computer|Padova|http://www.allcomputer.biz/
 PADOVA|ComputerWorld|Padova|http://www.c-w.it
 Padova|New Office|Padova|http://www.newoffice.it/
@@ -19,13 +16,9 @@ Sedico|Prior|Belluno|http://www.prior.to
 Stra|Albedo|Venezia|http://www.albedo-si.com
 Torri di Quartesolo|AMP Computer Service|Vicenza|http://www.ampcomputer.it
 Trichiana|Tecno Pl@net|Belluno|http://www.tecnoplanetweb.it
-Venezia|Essedi|Venezia|http://www.essedi.it/negozio-informatica-VENEZIA%20-%20SANTA%20CROCE-0552A007
 Verona|Computer 2000|Verona|http://computer2000vr.blogspot.com
-Verona|Essedi|Verona|http://www.essedi.it/negozio-informatica-VERONA-05290089
 VERONA|INFOLAB |Verona|http://infolabverona.com
 Verona|Microtek|Verona|http://www.microtekitalia.com
 Verona|Power media|Verona|http://www.powermedia.it
 Vicenza|Orion Informatica|Vicenza|http://www.orion-informatica.it
 Villorba|Zetec|Treviso|http://www.zetec.it
-Conegliano|Essedi|Treviso|http://www.essedi.it/negozio-informatica-CONEGLIANO-05320113
-Montebelluna|Essedi|Treviso|http://www.essedi.it/negozio-informatica-MONTEBELLUNA-0532A044

@@ -1,11 +1,7 @@
-Catanzaro|Essedi|Catanzaro|http://www.essedi.it
-Corigliano Calabro|Essedi|Cosenza|http://www.essedi.it
 Lamezia Terme|Computer's Home|Catanzaro|http://www.computershome.it
-Lamezia terme|Essedi|Catanzaro|http://www.essedi.it
 Motta Santa Lucia|PCAX Solutions|Catanzaro|http://www.pcax.it
 Nicotera|AMG Elettronica|Vibo Valentia|http://www.amgelettronica.it/
 Reggio Calabria|Cybernetic|Reggio Calabria|http://www.cybernetic.it
-Reggio Calabria|Essedi|Reggio Calabria|http://www.essedi.it
 Reggio Calabria|Infobe@t Informatica|Reggio Calabria|http://www.infobeat.weebly.com
 Santa Sofia|Informatica Point|Forlì-Cesena|http://www.informaticapoint.net
 Vibo Valentia|Kernel|Vibo Valentia|http://www.kernelweb.it

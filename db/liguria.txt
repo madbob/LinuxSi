@@ -5,7 +5,6 @@ Genova|Blue Byte|Genova|http://www.blue-byte.it
 Genova|Global Service|Genova|http://www.globalserviceinformatica.it
 Genova|IT Service|Genova|http://www.itservicenet.it
 Genova|neo-net|Genova|http://www.neo-net.it
-La Spezia|Essedi|La Spezia|http://www.essedi.it/negozio-informatica-LA%20SPEZIA-05055738
 La Spezia|Infotech|La Spezia|http://www.infotechshop.it
 Levanto|Bit Rate|La Spezia|http://www.bit-rate.net
 Loano|Due Esse Software & Service|Savona|http://www.okonline.it

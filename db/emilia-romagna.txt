@@ -2,18 +2,14 @@ Argelato|Coreopsys Informatica|Bologna|http://www.coreopsys.it
 Bologna|Avac Media|Bologna|http://www.avacmedia.it
 Bologna|Compagnia Italiana Computer srl|Bologna|http://www.cic-computer.it
 Bologna|Computer Wizard|Bologna|http://www.cwizard.it
-Bologna|Essedi|Bologna|http://www.essedi.it/negozio-informatica-BOLOGNA-0501DA46
 Bologna|Informatic@|Bologna|http://www.informaticapm.com
 Bologna|Kernel|Bologna|http://www.kernelweb.it
 Bologna|Kinetica|Bologna|http://www.kinetica.it
-Carpi|Essedi|Modena|http://www.essedi.it/negozio-informatica-CARPI-0501DV77
 Castello d'Argile|Uranos|Bologna|http://www.uranos.it/
 Castel Maggiore|Sptech di Fabio Scazzieri|Bologna|http://www.sptech.it
-Cesena|Essedi|Forlì-Cesena|http://www.essedi.it/negozio-informatica-CESENA-0533A145
 Codigoro|Zetasistemi|Ferrara|http://www.zetasistemi.it/
 Faenza|Fastoptica|Ravenna|http://www.fastoptica.com
 Faenza|Infocenter|Ravenna|http://www.aaz.it
-Forlì|Essedi|Forlì-Cesena|http://www.essedi.it/negozio-informatica-FORLI%27-05053819
 Gela|Tecnoforniture Italia|Caltanissetta|http://www.tcfitalia.it
 Lugo|BitLine|Ravenna|http://www.bitlinecomputers.com
 Modena|E. Sistem Personal Computer|Modena|http://www.esistem.net
@@ -27,7 +23,6 @@ Quattro Castella|Bibicom|Reggio Emilia|http://www.bibicom.it
 Ravenna|Alfa Numerica|Ravenna|http://www.alfanumerica.com
 Rimini|Computer System|Rimini|http://www.computersystemrimini.it
 Rimini|Corimtec|Rimini|http://www.corimtec.com
-Rimini|Essedi|Rimini|http://www.essedi.it/negozio-informatica-RIMINI-05180268
 San Giovanni in Persiceto|Overclokk.net|Bologna|http://www.overclokk.net
 Sassuolo|Netkom Group|Modena|http://www.netkomgroup.it
 Sassuolo|Soft-Net|Modena|http://www.soft-net.it

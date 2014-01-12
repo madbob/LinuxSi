@@ -4,7 +4,6 @@ Jesi|Ciampistore online|Ancona|http://www.ciampistore.it
 Fano|yTeck|Pesaro e Urbino|http://www.yteck.it/
 Orciano di Pesaro|Olipress|Pesaro e Urbino|http://www.olipress.it
 Pergola|Olipress|Pesaro e Urbino|http://www.olipress.it
-Fossombrone|Essedi|Pesaro e Urbino|http://www.essedi.it
 Porto San Giorgio|Punto Informatica|Ascoli Piceno|http://www.puntoinformatica.com
 San Benedetto del Tronto|Tecnoplanet|Ascoli Piceno|http://www.tecnoplanet.it
 Sant'Angelo in Vado|perLinux.it|Pesaro e Urbino|http://www.perlinux.it
