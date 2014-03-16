@@ -26,15 +26,6 @@ function shift_city ($city, $lon, $found_cities) {
 	return $lon;
 }
 
-function latlon_magic ($lat, $lon) {
-	/*
-		Formule per la conversione delle coordinate brutalmente scopiazzate da linuxday.it
-	*/
-	$lat = (log (tan ((90 + $lat) * pi () / 360)) / (pi () / 180)) * 20037508.34 / 180;
-	$lon = $lon * 20037508.34 / 180;
-	return array ($lat, $lon);
-}
-
 function init_geocache () {
 	global $has_geocache;
 	global $geocache;
@@ -103,7 +94,7 @@ function ask_nominatim ($c) {
 	$lat = $node->getAttribute ('lat');
 	$lon = $node->getAttribute ('lon');
 
-	return latlon_magic ($lat, $lon);
+	return array ($lat, $lon);
 }
 
 function ask_geonames ($c) {
@@ -129,7 +120,7 @@ function ask_geonames ($c) {
 	$lon = $results->item (0);
 	$lon = $lon->nodeValue;
 
-	return latlon_magic ($lat, $lon);
+	return array ($lat, $lon);
 }
 
 function ask_coordinates ($c) {
@@ -183,11 +174,9 @@ function write_geo_file ($name, $contents) {
 init_geocache ();
 global $geocache;
 
-/*
-	Per dettagli sul formato del file accettato da OpenLayer.Layer.Text
-	http://dev.openlayers.org/apidocs/files/OpenLayers/Layer/Text-js.html
-*/
-$rows = array ("lat\tlon\ttitle\tdescription\ticonSize\ticonOffset\ticon");
+$output = new stdClass ();
+$output->type = "FeatureCollection";
+$output->features = array ();
 
 foreach ($elenco_regioni as $region => $region_name) {
         $shops = file ('http://raw.github.com/madbob/LinuxSi/master/db/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
@@ -212,18 +201,30 @@ foreach ($elenco_regioni as $region => $region_name) {
 
 		if ($result != null) {
 			list ($lat, $lon) = $result;
-			$lon = shift_city ($city, $lon, $found_cities);
-			$found_cities [] = $city;
 
-			$rows [] = "$lat\t$lon\t$name\t<a href=\"$site\">$site</a>\t16,19\t-8,-19\thttp://lugmap.it/images/icon.png";
+			if ($doshift == true) {
+				$lon = shift_city ($city, $lon, $found_cities);
+				$found_cities [] = $city;
+			}
+
+			$point = new stdClass ();
+			$point->type = "Feature";
+			$point->properties = new stdClass ();
+			$point->properties->name = $name;
+			$point->properties->website = $site;
+			$point->geometry = new stdClass ();
+			$point->geometry->type = "Point";
+			$point->geometry->coordinates = array ($lon, $lat);
+
+			array_push ($output->features, $point);
 		}
 		else {
-			log_mail ("Impossibile gestire la zona '$city', si consiglia l'analisi manuale");
+			log_mail ("Impossibile gestire la zona '$zone', si consiglia l'analisi manuale");
 		}
 	}
 }
 
-write_geo_file ('geo.txt', $rows);
+write_geo_file ('geo.txt', json_encode ($output));
 save_geocache ();
 
 ?>

@@ -18,20 +18,23 @@
 */
 
 require_once ('../funzioni.php');
-lugheader ('Mappa', null, array ('http://openlayers.org/api/OpenLayers.js', 'mappa.js'));
+lugheader ('Mappa',
+		array ('http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css'),
+		array ('http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js', 'mappa.js'));
 
 $transformed = false;
 
 if (array_key_exists ('zoom', $_GET)) {
 	$found = false;
-	$contents = file ('../' . $data_folder . '/geo.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+	$lat = $lon = 0;
+	$contents = file_get_contents ('../data/geo.txt');
+	$contents = json_decode ($contents, true);
 
-	foreach ($contents as $row) {
-		list ($lat, $lon, $lug, $useless) = explode ("\t", $row, 4);
-		$lug = str_replace (' ', '_', $lug);
-
-		if ($lug == $_GET ['zoom']) {
+	foreach ($contents ['features'] as $row) {
+		if ($row ['properties']['name']== $_GET ['zoom']) {
 			$found = true;
+			$lat = $row ['geometry']['coordinates'][1];
+			$lon = $row ['geometry']['coordinates'][0];
 			break;
 		}
 	}
