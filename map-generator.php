@@ -163,11 +163,7 @@ function save_geocache () {
 function write_geo_file ($name, $contents) {
 	global $data_folder;
 
-	/*
-		Attenzione: e' necessario mettere un newline anche al fondo dell'ultima
-		riga del file, la quale viene altrimenti ignorata da OpenLayer
-	*/
-	if (file_put_contents ($data_folder . '/' . $name, join ("\n", $contents) . "\n") === false)
+	if (file_put_contents ($data_folder . '/' . $name, $contents) === false)
 		log_mail ("Errore nel salvataggio del file");
 }
 
@@ -184,6 +180,7 @@ foreach ($elenco_regioni as $region => $region_name) {
 
         foreach ($shops as $shop) {
 		$result = null;
+		$doshift = false;
 
 		$attr = explode ('|', $shop);
 		$site = $attr [3];
