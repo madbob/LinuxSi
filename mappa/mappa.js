@@ -7,7 +7,7 @@ var MapIcon = L.Icon.extend({
 		iconSize: [16, 19],
 		popupAnchor: [-8, 0],
 		iconAnchor: [16, 19],
-		iconUrl: '/immagini/icon.png'
+		iconUrl: 'http://lugmap.linux.it/immagini/icon.png'
 	}
 });
 
