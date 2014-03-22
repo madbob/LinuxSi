@@ -33,10 +33,19 @@ function init_geocache () {
 
 	$has_geocache = file_exists ($data_folder . '/geocache.txt');
 
-	if ($has_geocache == true)
+	if ($has_geocache == true) {
 		$geocache = file ($data_folder . '/geocache.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-	else
+
+		list ($city, $coords) = explode ('|', $geocache [0]);
+		list ($lat, $lon) = explode (',', $coords);
+		if ($lat > 180) {
+			unlink ($data_folder . '/geocache.txt');
+			$geocache = array ();
+		}
+	}
+	else {
 		$geocache = array ();
+	}
 }
 
 function ask_geocache ($c) {
