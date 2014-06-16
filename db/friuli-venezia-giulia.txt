@@ -5,7 +5,6 @@ San Giorgio di Nogaro|Labortech|Udine|http://www.labortech.it
 San Giovanni al Natisone|Compass|Udine|http://www.compass.udine.it
 San Vito al Tagliamento|Office S.n.c.|Pordenone|http://www.officelab.it
 Trieste|e.tel.|Trieste|http://www.etelindustriale.net
-Trieste|Nova Eira|Trieste|http://www.eira.it
 Trieste|Top Level Informatica|Trieste|http://www.tlishop.it
 Trieste|PlanetOne2|Trieste|http://www.planet-one2.com/
 Udine|Sintetica|Udine|http://www.sinteticaweb.it
