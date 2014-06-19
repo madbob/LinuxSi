@@ -16,6 +16,7 @@ Torino|Copisistem|Torino|http://www.copisistem.com/
 Torino|Docksnet|Torino|http://www.docksnet.com
 Torino|Flash Games|Torino|http://www.flash-games.it
 Torino|mambaSoft|Torino|http://www.mambastore.it/
+Torino|Computer Hospital|Torino|http://www.computerhospital.repair/
 Valenza|Sedis Computers|Alessandria|http://www.sedis.it/
 Varallo|S4 Solutions|Vercelli|http://www.s4solutions.eu
 None|Office Pro Service|Torino|http://www.officeproservice.it
