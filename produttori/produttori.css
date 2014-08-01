@@ -1,0 +1,87 @@
+.scale {
+	width: 80%;
+	margin: auto;
+	position: relative;
+	display: table;
+	background-image: linear-gradient(to right, #00FF00, #FF0000);
+	padding-left: 3%;
+	padding-right: 6%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.section {
+	width: 10%;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.place {
+	float: left;
+	clear: left;
+	width: 50px;
+	height: 50px;
+	padding: 0px;
+	margin: 2px;
+}
+
+.place img {
+	cursor: pointer;
+	cursor: hand;
+	width: 100%;
+}
+
+.vendorsummary {
+	display: none;
+	clear: both;
+	padding: 10px;
+	clear: both;
+	height: 220px;
+}
+
+.vendorsummary .info {
+	margin-top: 20px;
+}
+
+.vendorsummary img {
+	float: left;
+	margin-right: 20px;
+}
+
+.vendorsummary h2 {
+	margin: 5px;
+}
+
+.vendorsummary p {
+	margin: 9px;
+}
+
+.details {
+	display: block;
+	margin-left: 220px;
+}
+
+.details .row {
+	display: block;
+}
+
+.details .label {
+	width: 39%;
+	display: inline-block;
+}
+
+.details .barwrap {
+	width: 60%;
+	display: inline-block;
+}
+
+.details .bar {
+	text-align: left;
+	padding: 4px;
+	background-color: #DDD;
+	border: 1px solid #EEE;
+}
+

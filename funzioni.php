@@ -90,6 +90,7 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 	<div class="menu">
 		<a class="generalink" href="/">LinuxSi</a>
 		<a class="generalink" href="/mappa/">Mappa</a>
+		<!-- <a class="generalink" href="/produttori/">Produttori</a> -->
 		<a class="generalink" href="/partecipa/">Partecipa</a>
 
 		<p class="social">

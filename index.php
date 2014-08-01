@@ -28,8 +28,8 @@ lugheader ('LinuxSi');
       <div>
         Su LinuxSi trovi un elenco quanto pi&ugrave; aggiornato e dettagliato
         possibile sui negozi in cui acquistare PC nuovi con gi&agrave; preinstallato
-        GNU/Linux o senza sistema operativo (e sul cui prezzo non va dunque a pesare
-        il costo di una nuova licenza).
+        <a href="http://www.linux.it/">GNU/Linux</a> o senza sistema operativo (e
+	sul cui prezzo non va dunque a pesare il costo di una nuova licenza).
       </div>
 
       <br />

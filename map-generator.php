@@ -176,6 +176,19 @@ function write_geo_file ($name, $contents) {
 		log_mail ("Errore nel salvataggio del file");
 }
 
+function fetch_stats_file () {
+	global $data_folder;
+
+	$c = @file_get_contents ('http://h-node.org/download/notebooks/en');
+	if ($c != false) {
+		file_put_contents ($data_folder . '/hardware.xml', $c);
+		unset ($c);
+	}
+	else {
+		log_mail ("Impossibile scaricare file produttori PC da h-node");
+	}
+}
+
 init_geocache ();
 global $geocache;
 
@@ -232,5 +245,7 @@ foreach ($elenco_regioni as $region => $region_name) {
 
 write_geo_file ('geo.txt', json_encode ($output));
 save_geocache ();
+
+fetch_stats_file ();
 
 ?>

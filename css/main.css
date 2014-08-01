@@ -73,7 +73,7 @@ a:hover {
 .contentsBox {
 	width: 50%;
 	margin: auto;
-	min-height: 300px;
+	margin-bottom: 30px;
 }
 
 #introTabel {
