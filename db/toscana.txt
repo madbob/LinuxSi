@@ -1,19 +1,4 @@
-Arezzo|Sisu Soluzioni|Arezzo|http://www.sisu.it
 Borgo San Lorenzo|FlashInLab Tecnology|Firenze|http://www.flashinlabs.biz
-Cantagallo|Powerweb|Prato|http://www.pow-web.it
-capannori|Associazione Hacking Labs|Lucca|http://www.hackinglabs.it
-Coreglia Antelminelli|Stormdrop Informatica|Lucca|http://www.stormdrop.com
-Empoli|Computer Line|Firenze|http://computerline.altervista.org/
-Fucecchio|E-Office|Firenze|http://www.e-officecom.com
-Grosseto|ANK Computer|Grosseto|http://www.ank.it/
-Livorno|Doc Informatica|Livorno|http://www.doc-informatica.it/
-Lucca|Ennebi Computer|Lucca|http://www.ennebi.it
-Pescia|NBComputers|Pistoia|http://www.ennebi.it
 Pisa|ICT Pisa|Pisa|http://www.ictpisa.it/it/products.asp?idArea=-1
 Pistoia|Platinum Services|Pistoia|http://www.platinumservices.it
-Pomarance|AS Infonet|Pisa|http://www.asinfonet.it
-Prato|Elettro Potenza|Prato|http://www.elpwifi.net
 Prato|Sedecom|Prato|http://www.sedecom.it
-PRATO|Planet Price|Prato|http://www.planetprice.it 
-San Giovanni Valdarno|EuroShop|Arezzo|http://www.euroshop.it
-Sesto Fiorentino|Luca Ricci|Firenze|http://www.uploadsnc.it

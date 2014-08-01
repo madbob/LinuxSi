@@ -1,10 +1,3 @@
 Fagagna|Diamante Paolo|Udine|http://www.dpc-computer.com
-Monfalcone|Ambient7 IT Solutions|Gorizia|http://www.ambient7.com
-Pordenone|Computer Temple|Pordenone|http://www.computertemple.it/
 San Giorgio di Nogaro|Labortech|Udine|http://www.labortech.it
-San Giovanni al Natisone|Compass|Udine|http://www.compass.udine.it
-San Vito al Tagliamento|Office S.n.c.|Pordenone|http://www.officelab.it
 Trieste|e.tel.|Trieste|http://www.etelindustriale.net
-Trieste|Top Level Informatica|Trieste|http://www.tlishop.it
-Trieste|PlanetOne2|Trieste|http://www.planet-one2.com/
-Udine|Sintetica|Udine|http://www.sinteticaweb.it
