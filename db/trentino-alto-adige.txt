@@ -1,8 +1,3 @@
-Badia|PCShop|Bolzano|http://www.pcshopbadia.it
-Bolzano|Mitas|Bolzano|http://www.mitas.it
-Borgo Valsugana|Infotech Computer|Trento|http://www.infotechcomputer.it
+Bolzano|ALMDO Mitas|Bolzano|http://www.almdo.it/
 Lana|G-Store|Bolzano|http://www.g-store.net
-Lavis|MEC|Trento|http://www.mecpc.it
 Pergine Valsugana|GigaShop|Trento|http://www.gigashop.it
-Rovereto|Seldati|Trento|http://www.Seldati.it
-Volano|Systemware|Trento|http://www.systemware.it

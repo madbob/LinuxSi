@@ -1,24 +1,9 @@
-Biella|MediaCreation|Biella|http://www.mediacreation.it
-Bra|Valeriano Store|Cuneo|http://www.valeriano.net
-Carpignano Sesia|Frabernet|Novara|http://www.frabernet.com/
-Castiglione Torinese|Digital Network|Torino|http://www.digitalnetwork.eu
-Cervasca|Sguang Informatica|Cuneo|http://www.sguanginformatica.com
-Feletto|Computer & C.|Torino|http://www.dapa.it
-Lusernetta|Solution PC|Torino|http://www.solutionpc.net
-Omegna|Mythos.it|Verbano Cusio Ossola|http://www.mythoscomputer.com
-Pino Torinese|Digital Network|Torino|http://www.digitalnetwork.eu
-Piossasco|Computer Cornershop|Torino|http://www.computercornershop.com
-Cuorgne'|PF Technology|Torino|http://www.pftech.it
-Torino|Adfacom|Torino|http://www.adfacom.it
-Torino|Atlante Informatica Srl|Torino|http://www.atlanteinformatica.com
 Torino|Computer Valley|Torino|http://www.computervalley.it
-Torino|Copisistem|Torino|http://www.copisistem.com/
-Torino|Docksnet|Torino|http://www.docksnet.com
-Torino|Flash Games|Torino|http://www.flash-games.it
 Torino|mambaSoft|Torino|http://www.mambastore.it/
-Torino|Computer Hospital|Torino|http://www.computerhospital.repair/
-Valenza|Sedis Computers|Alessandria|http://www.sedis.it/
-Varallo|S4 Solutions|Vercelli|http://www.s4solutions.eu
-None|Office Pro Service|Torino|http://www.officeproservice.it
-Novara|Videocomputing|Novara|http://www.vcg.it/
+Torino|TorinoComputer|Torino|http://www.torinocomputer.it/
+Rivalta di Torino|MWI Markweb Informatica |Torino|http://www.markwebinformatica.net/
+Lusernetta|Solution PC|Torino|http://www.solutionpc.net
 Grange di Front|M-tech|Torino|http://m-techpc.blogspot.it/
+Novara|MWI Markweb Informatica |Novara|http://www.markwebinformatica.net/
+Carpignano Sesia|Frabernet|Novara|http://www.frabernet.com/
+Varallo|S4 Solutions|Vercelli|http://www.s4solutions.eu
