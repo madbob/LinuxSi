@@ -151,6 +151,10 @@ $vendors = array (
 		'icon' => 'apple.png',
 		'website' => 'https://www.apple.com/it/',
 	),
+	'clevo-co' => array (
+		'icon' => 'clevo.png',
+		'website' => 'http://www.clevo.com.tw/',
+	),
 );
 
 /*
