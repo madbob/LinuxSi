@@ -285,8 +285,8 @@ uasort ($data, 'sort_vendors');
 		$scale = array (
 			'Pienamente Compatibile' => ($m->items ['A-platinum'] * 100) / $m->num_items,
 			'Con Problemi Minori' => ($m->items ['B-gold'] * 100) / $m->num_items,
-			'Appena Usabile' => ($m->items ['D-bronze'] * 100) / $m->num_items,
 			'Con Problemi Maggiori' => ($m->items ['C-silver'] * 100) / $m->num_items,
+			'Appena Usabile' => ($m->items ['D-bronze'] * 100) / $m->num_items,
 			'Da Buttare!' => ($m->items ['E-garbage'] * 100) / $m->num_items,
 		);
 
