@@ -44,6 +44,10 @@ function sort_vendors ($a, $b) {
 		return 1;
 }
 
+function percentage_formula ($vendor, $min, $max) {
+	return (100 - ((($vendor->average - $min) * 100) / ($max - $min)));
+}
+
 /*
 	Questo file deve essere periodicamente aggiornato coi contenuti di
 	http://h-node.org/download/notebooks/en
@@ -196,8 +200,16 @@ foreach ($contents->device as $device) {
 
 $min = 100;
 $max = 0;
+$filtered_data = array ();
 
 foreach ($data as $name => $vendor) {
+	/*
+		Salto i produttori con meno di 2 prodotti recensiti, solitamente
+		sono realta' inesistenti in Italia dunque non vale la pena
+	*/
+	if ($vendor->num_items < 3)
+		continue;
+
 	$sum = $vendor->items ['A-platinum'] * 4 + $vendor->items ['B-gold'] * 3 + $vendor->items ['C-silver'] * 2 + $vendor->items ['D-bronze'] * 1 + $vendor->items ['E-garbage'] * 0;
 	$average = $sum / $vendor->num_items;
 
@@ -207,8 +219,10 @@ foreach ($data as $name => $vendor) {
 		$max = $average;
 
 	$vendor->average = $average;
+	$filtered_data [$name] = $vendor;
 }
 
+$data = $filtered_data;
 $managed = array ();
 uasort ($data, 'sort_vendors');
 
@@ -225,13 +239,6 @@ uasort ($data, 'sort_vendors');
 		foreach ($data as $name => $vendor) {
 			$n = $vendor->lname;
 
-			/*
-				Salto i produttori con meno di 2 prodotti recensiti, solitamente
-				sono realta' inesistenti in Italia dunque non vale la pena
-			*/
-			if ($vendor->num_items < 3)
-				continue;
-
 			if (array_key_exists ($vendor->lname, $vendors) == false) {
 				log_mail ('Nuovo produttore non gestito: ' . $vendor->name);
 				continue;
@@ -242,7 +249,7 @@ uasort ($data, 'sort_vendors');
 				continue;
 			}
 
-			$tot = 100 - ((($vendor->average - $min) * 100) / ($max - $min));
+			$tot = percentage_formula ($vendor, $min, $max);
 			while ($tot > $next_stop) {
 				$current_stop = $next_stop;
 				$next_stop += 10;
