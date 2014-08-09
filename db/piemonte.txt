@@ -1,5 +1,4 @@
 Torino|Computer Valley|Torino|http://www.computervalley.it
-Torino|mambaSoft|Torino|http://www.mambastore.it/
 Torino|TorinoComputer|Torino|http://www.torinocomputer.it/
 Rivalta di Torino|MWI Markweb Informatica |Torino|http://www.markwebinformatica.net/
 Lusernetta|Solution PC|Torino|http://www.solutionpc.net
