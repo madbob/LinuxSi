@@ -1,36 +1,14 @@
+Milano|Delta Elettronica|Milano|http://www.deltacomp.it/
+Canegrate|X-SYSTEM|Milano|http://www.x-buy.it
 Bergamo|KOAN s.a.s.|Bergamo|http://www.koala.it
 Cazzano Sant'Andrea|Sunflower Computers|Bergamo|http://www.sunflower-computers.com
-Curno|CD Bergamo(Computer Discount)|Bergamo|http://www.cdbergamo.it
-Treviolo|Centro Assistenza Computers|Bergamo|http://www.cca.it
+Curno|CD Bergamo|Bergamo|http://www.cdbergamo.it
 Calcinato|Infogest Informatica|Brescia|http://www.infogestinformatica.it/
 Coccaglio|Pc-Brescia.com|Brescia|http://www.pc-brescia.com/
 Pozzolengo|3MP Computer|Brescia|http://www.3mpcomputer.it
-Canegrate|X-SYSTEM|Milano|http://www.x-buy.it
-Carugate|MPC computer|Milano|http://www.mpccomputer.it/
-Cassina de' Pecchi|T&Nsolutions|Milano|http://www.initpc.it
-Cernusco sul Naviglio|Essepi Informatica|Milano|http://www.essepiinformatica.it
-Milano|Aris Computer|Milano|http://www.ariscomputer.com
-Milano|Delta Elettronica|Milano|http://www.deltacomp.it/
-Milano|Microdata Sistemi|Milano|http://www.microdata.it/
-Milano|NetGang|Milano|http://www.netgang.it
-Milano|Plug and Play Informatica|Milano|http://www.plugandplayinformatica.it/
-Milano|SNP Computers|Milano|http://www.snp.it
-Milano|Wait State|Milano|http://www.waitstate.it
-Novate Milanese|PML Computer|Milano|http://www.pmlcomputer.it
-Sedriano|Computer Guru|Milano|http://www.computerguru.it
-Tribiano|yTeck|Milano|http://www.yteck.it/
-Cremona|Digicolor.net|Cremona|http://www.digicolor.net
-Pandino|M. & C. Computer|Cremona|http://www.meccomputer.it
-Como|Restorepc.it|Como|http://www.restorepc.it
 Fenegrò|Mediaservice|Como|http://www.mediaservicesnc.it/
-Monguzzo|R.P.M. 2000|Como|http://www.rpm2000.it
 Lecco|YetOpen|Lecco|http://www.yetopen.it/
-Nibionno|Infinitech|Lecco|http://www.infinitech.it
-Leggiuno|VideoSuono|Varese|http://www.videosuono.net
-Luino|Computer Galaxy|Varese|http://www.galaxycomputer.it
 Saronno|PC Generation|Varese|http://www.pcgen.it
 Vigevano|Dr. Stein|Pavia|http://www.drstein.it
 Pavia|Get Ready|Pavia|http://www.getready.it
-Arcore|TFI Computer S.r.l.|Monza e Brianza|http://www.tficomputer.it
-Brugherio|Helpdeskcomputer|Monza e Brianza|http://www.helpdeskcomputer.it/
-Levata|Pixel|Mantova|http://www.paolomelara.it
+
