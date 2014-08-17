@@ -1,11 +1,4 @@
-Bagheria|Data Studio|Palermo|http://www.datastudio.it/
 Caltagirone|G@laxy Systems|Catania|http://www.galaxysystems.eu
 Misterbianco|Hardware Internet Shop|Catania|http://www.hardwareinternetshop.com
-Palermo|El Dorado Shop|Palermo|http://www.eldoradoshop.net
-Palermo|Infofast Consulting|Palermo|http://www.infofastconsulting.it
-Priolo Gargallo|Hardware.Point.Service|Siracusa|http://www.h-ps.info
-San Cataldo|Software & sistemi di Celeste R.|Caltanissetta|http://www.softwareesistemi.it/
 San Giovanni La Punta|Tech Point Sas|Catania|http://www.techpoint.catania.it
-Trapani|Cartufficio|Trapani|http://web.tiscali.it/cartufficio_online/
 Trapani|SOS PC Shop|Trapani|http://www.sospcshop.com
-Valdina|FM System|Messina|http://www.fmsystem.it

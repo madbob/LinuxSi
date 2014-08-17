@@ -1,13 +1,5 @@
-Bari|Multisoft Computer|Bari|http://www.reteimprese.it/MULTISOFT
-Bitonto|L'Altro Computer|Bari|http://www.altrocomputer.it
-Cerignola|ProjectStore|Foggia|http://www.projectstore.it
-Fasano|Infologika|Brindisi|http://www.infologika.it/
-Lecce|S.I.S. Elettronica|Lecce|http://www.siselettronica.it
-Bitetto|MediaShop|Bari|http://www.mediashopstore.it/
-Mesagne|Garlach44|Brindisi|http://www.garlach44.it
+Rutigliano|Rehardwareing|Bari|http://www.rehardwareing.com
 Novoli|Passione PC|Lecce|http://www.passionepc.it
 Palagiano|Web Services|Taranto|http://www.webser.net
-Rutigliano|Rehardwareing|Bari|http://www.rehardwareing.com
-Ruvo di Puglia|Mr. Computer|Bari|http://www.rutigliani.com
 San Giovanni Rotondo|Selene Informatica|Foggia|http://www.seleneinformatica.it
 Terni|E.T.I. Elettronica|Terni|http://www.etitech.net
