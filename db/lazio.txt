@@ -1,16 +1,4 @@
-Anguillara Sabazia|Playmedia|Roma|http://www.playmedia.it
-Artena|Over PC|Roma|http://www.over-pc.com/
-Civitavecchia|Infotech|Roma|http://www.informaticainfotech.com/
-Fondi|Eureka|Latina|http://www.eurekapc.it/
-Frosinone|Finelli|Frosinone|http://www.finellicomputer.it
-Guidonia Montecelio|Office Center|Roma|http://www.centrooffice.it
-Roma|Chain Italia|Roma|http://www.chainitalia.com
-Roma|City Computer Service|Roma|http://www.citycomputerservice.it
-Roma|Computer Line|Roma|http://computerline.altervista.org/
-Roma|Ergo|Roma|http://www.ergo.it/
 Roma|Meg@byte Informatica SRL|Roma|http://www.megabyteinformatica.it
 Roma|Syspack|Roma|http://www.syspack.com
 Roma|TraShop|Roma|http://www.binarioetico.org
-Terracina|Webimage|Latina|http://www.webimage.it
-Tivoli|Prompt PC|Roma|http://prompt-pc.jimdo.com/
-Velletri|Euro PC|Roma|http://www.europccomputer.com
+Frosinone|Finelli|Frosinone|http://www.finellicomputer.it
