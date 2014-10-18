@@ -3,6 +3,7 @@ Torino|TorinoComputer|Torino|http://www.torinocomputer.it/
 Rivalta di Torino|MWI Markweb Informatica|Torino|http://www.markwebinformatica.net/
 Lusernetta|Solution PC|Torino|http://www.solutionpc.net
 Grange di Front|M-tech|Torino|http://m-techpc.blogspot.it/
+Bra|Valeriano Store|Cuneo|http://www.valeriano.net
 Novara|MWI Markweb Informatica|Novara|http://www.markwebinformatica.net/
 Carpignano Sesia|Frabernet|Novara|http://www.frabernet.com/
 Varallo|S4 Solutions|Vercelli|http://www.s4solutions.eu
