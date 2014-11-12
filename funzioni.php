@@ -56,6 +56,26 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Nobile|Nobile:b" />
   <link href="/css/main.css" rel="stylesheet" type="text/css" />
 
+  <meta name="dcterms.creator" content="Italian Linux Society" />
+  <meta name="dcterms.type" content="Text" />
+  <link rel="publisher" href="http://www.ils.org/" />
+
+  <meta name="twitter:title" content="LinuxSi" />
+  <meta name="twitter:creator" content="@ItaLinuxSociety" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="http://www.linuxsi.com/" />
+  <meta name="twitter:image" content="http://www.linuxsi.com/immagini/tw.png" />
+
+  <meta property="og:site_name" content="LinuxSi" />
+  <meta property="og:title" content="LinuxSi" />
+  <meta property="og:url" content="http://www.linuxsi.com/" />
+  <meta property="og:image" content="http://www.linuxsi.com/immagini/fb.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:country-name" content="Italy" />
+  <meta property="og:email" content="webmaster@linux.it" />
+  <meta property="og:locale" content="it_IT" />
+  <meta property="og:description" content="La mappa dei negozi Linux friendly" />
+
   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 
   <?php
