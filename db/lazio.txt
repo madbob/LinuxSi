@@ -3,3 +3,4 @@ Roma|Syspack|Roma|http://www.syspack.com
 Roma|TraShop|Roma|http://www.binarioetico.org
 Roma|Re-Ware|Roma|http://www.re-ware.it/
 Frosinone|Finelli|Frosinone|http://www.finellicomputer.it
+Aprilia|Gears Computer|Latina|http://www.gearscomputer.it/
