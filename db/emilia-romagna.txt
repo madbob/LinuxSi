@@ -5,9 +5,11 @@ Bologna|Computer Wizard|Bologna|http://www.cwizard.it
 Bologna|Informatic@|Bologna|http://www.informaticapm.com
 Bologna|Kernel|Bologna|http://www.kernelweb.it
 Bologna|Kinetica|Bologna|http://www.kinetica.it
+Carpi|Computer Centers|Modena|http://computercenters.net/
 Castello d'Argile|Uranos|Bologna|http://www.uranos.it/
 Castel Maggiore|Sptech di Fabio Scazzieri|Bologna|http://www.sptech.it
 Codigoro|Zetasistemi|Ferrara|http://www.zetasistemi.it/
+Correggio|Web-LAN|Reggio Emilia|http://www.web-lan.it/
 Faenza|Fastoptica|Ravenna|http://www.fastoptica.com
 Faenza|Infocenter|Ravenna|http://www.aaz.it
 Gela|Tecnoforniture Italia|Caltanissetta|http://www.tcfitalia.it
@@ -28,4 +30,3 @@ Sassuolo|Netkom Group|Modena|http://www.netkomgroup.it
 Sassuolo|Soft-Net|Modena|http://www.soft-net.it
 Savignano sul Rubicone|Electronics Adriatica|Forlì-Cesena|http://www.electronicsadriatica.it
 Soliera|Laboratori Aidan|Modena|http://www.aidan.it
-Correggio|Web-LAN|Reggio Emilia|http://www.web-lan.it/
