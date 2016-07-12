@@ -28,17 +28,20 @@ function sort_by_province ($a, $b) {
 	return $cmp;
 }
 
-if (ereg('index\.php$', $_SERVER["SCRIPT_NAME"])) { # se sono nel file index.php, allora sono stato invocato da /nome-regione/
+if (preg_match('/index\.php$/', $_SERVER["SCRIPT_NAME"])) { # se sono nel file index.php, allora sono stato invocato da /nome-regione/
   require_once ('../funzioni.php');
   $regione = substr(dirname($_SERVER["SCRIPT_NAME"]), 1); # estraggo la regione dal percorso
+
   if (array_key_exists ($regione, $elenco_regioni)) { # lasciamo il controllo, ma in ogni caso dovremmo ottenere un 404
     $db_file = '../db/'.$regione.'.txt';
     $db_regione = file($db_file);
     $title = 'LinuxSi: '. $elenco_regioni[$regione];
-  } else {
-            header("location: http://66.249.9.11/linuxsi/"); }
-
-} else { # qui se sono stato invocato alla vecchia maniera
+  }
+  else {
+    header("location: http://66.249.9.11/linuxsi/");
+  }
+}
+else { # qui se sono stato invocato alla vecchia maniera
   require_once ('funzioni.php');
   $db_regione = array ();
 
@@ -60,6 +63,15 @@ usort ($db_regione, 'sort_by_province');
   <p class="fromRegionLinks">
     <a href="/">&raquo; torna all'indice&nbsp;</a>
   </p>
+
+  <?php if(count($db_regione) == 0): ?>
+
+  <div style="text-align: center">
+    <h2>Non sembrano esserci negozi Linux-friendly in questa regione!</h2>
+    <p>Ne conosci qualcuno? <a href="/partecipa">Non esitare a contattarci</a>!</p>
+  </div>
+
+  <?php else: ?>
 
   <table id="lugListTable">
     <thead>
@@ -90,6 +102,8 @@ usort ($db_regione, 'sort_by_province');
       <?php endwhile;?>
     </tbody>
    </table>
+
+   <?php endif ?>
 
    <p class="fromRegionLinks">
 
