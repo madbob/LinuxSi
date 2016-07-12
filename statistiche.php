@@ -61,11 +61,12 @@ lugheader ('Statistiche dei negozi Linux-friendly italiani');
         foreach (glob ('db/*.txt') as $filename) {
           if (in_array($filename, array('db/emilia.txt', 'db/friuli.txt', 'db/trentino.txt', 'db/valle.txt')))
             continue;
+
           $contents = file ($filename, FILE_IGNORE_NEW_LINES);
           $tot = count ($contents);
           $sum += $tot;
 
-          $tots [] = $tot;
+          $tots[$filename] = $tot;
         }
 
         $nriga = 0;
@@ -74,7 +75,7 @@ lugheader ('Statistiche dei negozi Linux-friendly italiani');
           if (in_array($filename, array('db/emilia.txt', 'db/friuli.txt', 'db/trentino.txt', 'db/valle.txt')))
             continue;
 
-          $t = $tots [$nriga - 1];
+          $t = $tots [$filename];
           list ($name) = explode ('.', basename ($filename));
           do_row ($nriga, $name, $t, $t == 0 ? 0 : ($t * 100) / $sum);
           $nriga++;
