@@ -12,4 +12,3 @@ Lecco|YetOpen|Lecco|http://www.yetopen.it/
 Saronno|PC Generation|Varese|http://www.pcgen.it
 Vigevano|Dr. Stein|Pavia|http://www.drstein.it
 Pavia|Get Ready|Pavia|http://www.getready.it
-

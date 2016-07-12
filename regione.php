@@ -38,7 +38,7 @@ if (preg_match('/index\.php$/', $_SERVER["SCRIPT_NAME"])) { # se sono nel file i
     $title = 'LinuxSi: '. $elenco_regioni[$regione];
   }
   else {
-    header("location: http://66.249.9.11/linuxsi/");
+    header("location: /");
   }
 }
 else { # qui se sono stato invocato alla vecchia maniera
