@@ -1,5 +1,6 @@
+Bellaria Igea Marina|Chip Office Automation|Rimini|http://www.cic-computer.it
 Bologna|Avac Media|Bologna|http://www.avacmedia.it
-Bologna|Compagnia Italiana Computer srl|Bologna|http://www.cic-computer.it
+Bologna|CIC Computer|Bologna|http://www.cic-computer.it
 Bologna|Computer Wizard|Bologna|http://www.cwizard.it
 Bologna|Informatic@|Bologna|http://www.informaticapm.com
 Bologna|Kernel|Bologna|http://www.kernelweb.it
