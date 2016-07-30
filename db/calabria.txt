@@ -1,1 +1,4 @@
 Nicotera|AMG Elettronica|Vibo Valentia|http://www.amgelettronica.it
+Vibo Valentia|Kernel|Vibo Valentia|http://www.kernelweb.it
+Ionadi|Kernel|Vibo Valentia|http://www.kernelweb.it
+Catanzaro|Kernel|Catanzaro|http://www.kernelweb.it
