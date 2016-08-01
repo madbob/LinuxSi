@@ -3,4 +3,3 @@ Rutigliano|Rehardwareing|Bari|http://www.rehardwareing.com
 Novoli|Passione PC|Lecce|http://www.passionepc.it
 Palagiano|Web Services|Taranto|http://www.webser.net
 San Giovanni Rotondo|Selene Informatica|Foggia|http://www.seleneinformatica.it
-Terni|E.T.I. Elettronica|Terni|http://www.etitech.net

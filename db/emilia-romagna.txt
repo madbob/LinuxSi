@@ -1,32 +1,25 @@
-Argelato|Coreopsys Informatica|Bologna|http://www.coreopsys.it
+Bellaria Igea Marina|Chip Office Automation|Rimini|http://www.cic-computer.it
 Bologna|Avac Media|Bologna|http://www.avacmedia.it
-Bologna|Compagnia Italiana Computer srl|Bologna|http://www.cic-computer.it
+Bologna|CIC Computer|Bologna|http://www.cic-computer.it
 Bologna|Computer Wizard|Bologna|http://www.cwizard.it
-Bologna|Informatic@|Bologna|http://www.informaticapm.com
-Bologna|Kernel|Bologna|http://www.kernelweb.it
 Bologna|Kinetica|Bologna|http://www.kinetica.it
 Carpi|Computer Centers|Modena|http://computercenters.net/
-Castello d'Argile|Uranos|Bologna|http://www.uranos.it/
+Castel Maggiore|Coreopsys Informatica|Bologna|http://www.coreopsys.it
 Castel Maggiore|Sptech di Fabio Scazzieri|Bologna|http://www.sptech.it
 Codigoro|Zetasistemi|Ferrara|http://www.zetasistemi.it/
 Correggio|Web-LAN|Reggio Emilia|http://www.web-lan.it/
-Faenza|Fastoptica|Ravenna|http://www.fastoptica.com
+Faenza|Perfect Circle|Ravenna|http://perfectcircle.it
 Faenza|Infocenter|Ravenna|http://www.aaz.it
-Gela|Tecnoforniture Italia|Caltanissetta|http://www.tcfitalia.it
 Lugo|BitLine|Ravenna|http://www.bitlinecomputers.com
 Modena|E. Sistem Personal Computer|Modena|http://www.esistem.net
 Modena|Ferrari Computers|Modena|http://www.ferrari-computers.it/
 Modena|Informanet|Modena|http://www.informanet.mo.it
-Modena|Infostore|Modena|http://www.infostore.it
 Modena|Massarenti Franco|Modena|http://www.massarenti.com
 Modena|TeraByte Lab|Modena|http://www.tblab.it
 Parma|XNet|Parma|http://www.xnet-solutions.it
-Quattro Castella|Bibicom|Reggio Emilia|http://www.bibicom.it
 Ravenna|Alfa Numerica|Ravenna|http://www.alfanumerica.com
 Rimini|Computer System|Rimini|http://www.computersystemrimini.it
 Rimini|Corimtec|Rimini|http://www.corimtec.com
-San Giovanni in Persiceto|Overclokk.net|Bologna|http://www.overclokk.net
-Sassuolo|Netkom Group|Modena|http://www.netkomgroup.it
 Sassuolo|Soft-Net|Modena|http://www.soft-net.it
 Savignano sul Rubicone|Electronics Adriatica|Forlì-Cesena|http://www.electronicsadriatica.it
 Soliera|Laboratori Aidan|Modena|http://www.aidan.it
