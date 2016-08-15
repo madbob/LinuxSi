@@ -179,7 +179,7 @@ function write_geo_file ($name, $contents) {
 function fetch_stats_file () {
 	global $data_folder;
 
-	$c = @file_get_contents ('http://h-node.org/download/notebooks/en');
+	$c = @file_get_contents ('https://h-node.org/download/notebooks/en');
 	if ($c != false) {
 		file_put_contents ($data_folder . '/hardware.xml', $c);
 		unset ($c);

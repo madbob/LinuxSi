@@ -50,7 +50,7 @@ function percentage_formula ($vendor, $min, $max) {
 
 /*
 	Questo file deve essere periodicamente aggiornato coi contenuti di
-	http://h-node.org/download/notebooks/en
+	https://h-node.org/download/notebooks/en
 */
 $url = '../data/hardware.xml';
 
