@@ -26,16 +26,17 @@ lugheader ('Partecipa');
 ?>
 
 <div class="contentsBox">
-	<p>
-		<b>Aiutaci a mantenere LinuxSi aggiornato!</b>
-	</p>
+	<img src="/immagini/badge.png" style="float: right; height: 200px; margin-left: 10px; margin-bottom: 10px" />
+
 	<p>
 		<a href="mailto:lugmap@linux.it">Contattaci</a> per segnalare negozi non
-		ancora indicizzati, negozi non pi&uacute; esistenti o per commenti.
+		ancora indicizzati, negozi non più esistenti, per commenti, o per chiederci
+		di inviarti (gratuitamente) l'adesivo LinuxSi da applicare sulla tua vetrina
+		(rotondo, diametro 7cm, bianco, plastificato per esterni).
 	</p>
 	<p>
 		Nota bene: vengono approvati solo i rivenditori che hanno un sito, e sul sito
-		viene espressamente citata l'attivit&agrave; di vendita di computer con
+		viene espressamente citata l'attività di vendita di computer con
 		Linux o senza sistema operativo!
 	</p>
 	<p>
@@ -47,7 +48,7 @@ lugheader ('Partecipa');
 		Puoi inoltre partecipare direttamente alla stesura del codice e del database,
 		accedendo al
 		<a class="generalink" href="http://github.com/madbob/LinuxSi">repository GitHub</a>.
-		Il codice sorgente del sito &egrave; distribuito con licenza
+		Il codice sorgente del sito è distribuito con licenza
 		<a href="http://www.gnu.org/licenses/agpl-3.0-standalone.html">AGPLv3</a>, mentre i
 		dati sono pubblicati in licenza
 		<a href="http://creativecommons.org/publicdomain/zero/1.0/legalcode">CC0</a>.
