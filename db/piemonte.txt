@@ -5,5 +5,6 @@ Lusernetta|Solution PC|Torino|http://www.solutionpc.net
 Grange di Front|M-tech|Torino|http://m-techpc.blogspot.it/
 Ivrea|DLL Informatica|Torino|http://www.dllinformatica.it/
 Bra|Valeriano Store|Cuneo|http://www.valeriano.net
+Bra|Pronto Soccorso Informatico|Cuneo|http://www.prontosoccorsoinformatico.it/
 Novara|MWI Markweb Informatica|Novara|http://www.markwebinformatica.net/
 Villanova d'Asti|Up Informatica|Asti|http://www.upinform.com/

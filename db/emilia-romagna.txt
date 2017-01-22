@@ -4,6 +4,7 @@ Bologna|CIC Computer|Bologna|http://www.cic-computer.it
 Bologna|Computer Wizard|Bologna|http://www.cwizard.it
 Bologna|Kinetica|Bologna|http://www.kinetica.it
 Carpi|Computer Centers|Modena|http://computercenters.net/
+Carpi|Easy Input|Modena|http://easy-input.it/
 Castel Maggiore|Coreopsys Informatica|Bologna|http://www.coreopsys.it
 Castel Maggiore|Sptech di Fabio Scazzieri|Bologna|http://www.sptech.it
 Codigoro|Zetasistemi|Ferrara|http://www.zetasistemi.it/
