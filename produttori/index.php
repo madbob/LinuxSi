@@ -67,10 +67,6 @@ $vendors = array (
 		'icon' => 'gateway.png',
 		'website' => 'http://www.gateway.com/',
 	),
-	'lg' => array (
-		'icon' => 'lg.png',
-		'website' => 'http://www.lg.com/',
-	),
 	'garlach44' => array (
 		'icon' => 'garlach.png',
 		'website' => 'https://www.garlach44.eu/',
@@ -102,14 +98,6 @@ $vendors = array (
 	'fujitsu' => array (
 		'icon' => 'fujitsu.png',
 		'website' => 'http://www.fujitsu.com/it/',
-	),
-	'samsung' => array (
-		'icon' => 'samsung.png',
-		'website' => 'http://www.samsung.com/it/',
-	),
-	'sony' => array (
-		'icon' => 'sony.png',
-		'website' => 'http://www.sony.it/',
 	),
 	'clevo' => array (
 		'icon' => 'clevo.png',
