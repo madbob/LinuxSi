@@ -357,13 +357,10 @@ uasort ($data, 'sort_vendors');
 
 		<li>
 			<p>
-				<b>la presenza di SecureBoot</b>: negli ultimi anni l'introduzione del cosiddetto "SecureBoot", velleitaria e
-				contestata misura di sicurezza applicata direttamente nel firmware dei PC dei maggiori produttori su indicazione
-				e supervisione di Microsoft, ha reso difficile l'installazione di Linux sui nuovi dispositivi. A volte non si
-				riesce ad ottenere un dual boot con un altro sistema operativo, altre volte la procedura di installazione fallisce
-				o neppure si avvia. Esistono varie sfumature di complessità, in alcuni casi tutto funziona al primo colpo ed in
-				altri occorre modificare alcuni parametri appunto del pannello di configurazione del firmware: documentarsi prima
-				sulla difficoltà di tale setup sul modello di computer scelto può far risparmiare parecchi grattacapi!
+				<b>il rimborso della licenza Windows</b>: benché dovrebbe essere un diritto del consumatore ottenere il rimborso
+				della licenza Windows pre-installata sul computer, non tutti i produttori adempiono a tale dovere. Per maggiori
+				informazioni sul rimborso, su come e perché ottenerlo, e sui fornitori più o meno affidabili, si consulti
+				l'apposito sito <a href="http://sistemainoperativo.it/">sistemainoperativo.it</a>.
 			</p>
 		</li>
 	</ul>
