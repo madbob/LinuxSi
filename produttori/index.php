@@ -228,7 +228,7 @@ uasort ($data, 'sort_vendors');
 			$n = $vendor->lname;
 
 			if (array_key_exists ($vendor->lname, $vendors) == false) {
-				log_mail ('Nuovo produttore non gestito: ' . $vendor->name);
+				// log_mail ('Nuovo produttore non gestito: ' . $vendor->name);
 				continue;
 			}
 
