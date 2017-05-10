@@ -4,8 +4,8 @@ Cazzano Sant'Andrea|Sunflower Computers|Bergamo|http://www.sunflower-computers.c
 Curno|CD Bergamo|Bergamo|http://www.cdbergamo.it
 Mantova|License Free Shop|Mantova|http://www.licfreeshop.com/
 Calcinato|Infogest Informatica|Brescia|http://www.infogestinformatica.it/
-Coccaglio|Pc-Brescia.com|Brescia|http://www.pc-brescia.com/
 Pozzolengo|3MP Computer|Brescia|http://www.3mpcomputer.it
+Rovato|Pc-Brescia.com|Brescia|http://www.pc-brescia.com/
 Fenegrò|Mediaservice|Como|http://www.mediaservicesnc.it/
 Lecco|YetOpen|Lecco|http://www.yetopen.it/
 Saronno|PC Generation|Varese|http://www.pcgen.it
