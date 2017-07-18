@@ -1,0 +1,439 @@
+
+/* ---------- Basic Layout Styles ----------- */
+
+html,
+body,
+#page  {
+  height: 100%;
+}
+#page-wrapper {
+  min-height: 100%;
+  min-width: 960px;
+}
+#header div.section,
+#featured div.section,
+#messages div.section,
+#main,
+#triptych,
+#footer-columns,
+#footer {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#header div.section {
+  position: relative;
+}
+.region-header {
+  float: right; /* LTR */
+  /* margin: 0 5px 10px; */
+}
+.with-secondary-menu .region-header {
+  margin-top: 3em;
+}
+.without-secondary-menu .region-header {
+  margin-top: 30px;
+}
+#secondary-menu {
+  position: absolute;
+  right: 0; /* LTR */
+  top: 0;
+  width: 690px;
+}
+#content,
+#sidebar-first,
+#sidebar-second,
+.region-triptych-first,
+.region-triptych-middle,
+.region-triptych-last,
+.region-footer-firstcolumn,
+.region-footer-secondcolumn,
+.region-footer-thirdcolumn,
+.region-footer-fourthcolumn {
+  display: inline;
+  float: left; /* LTR */
+  position: relative;
+}
+.one-sidebar #content {
+  width: 100%;
+  order: 1;
+}
+.two-sidebars #content {
+  width: 480px;
+}
+.no-sidebars #content {
+  width: 960px;
+  float: none;
+}
+#sidebar-first,
+#sidebar-second {
+  width: 340px;
+}
+#main-wrapper {
+  min-height: 300px;
+}
+#content .section,
+.sidebar .section {
+  padding: 0 15px;
+}
+#breadcrumb {
+  margin: 0 15px;
+}
+.region-triptych-first,
+.region-triptych-middle,
+.region-triptych-last {
+  margin: 20px 20px 30px;
+  width: 280px;
+}
+#footer-wrapper {
+  padding: 35px 5px 30px;
+}
+.region-footer-firstcolumn,
+.region-footer-secondcolumn,
+.region-footer-thirdcolumn,
+.region-footer-fourthcolumn {
+  padding: 0 10px;
+  width: 240px;
+}
+#footer {
+  width: 940px;
+  min-width: 920px;
+}
+
+.floatright {
+  float: right;
+  margin-left: 20px;
+}
+
+.floatleft {
+  float: left;
+  margin-right: 20px;
+}
+
+.clearer {
+  clear: both;
+}
+
+.activelist {
+  margin: 0 auto 50px auto;
+  text-align: center;
+  list-style: none;
+  clear: both;
+  display: inline-block;
+  min-height: 180px;
+}
+
+.activelist li {
+  margin-right: 15px;
+  width: 150px;
+  height: 180px;
+  position: relative;
+  float: left;
+}
+
+.activelist li a {
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+.activelist li img.shadow {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.volunteer_panel {
+  font-size: 0.8em;
+  width: 100%;
+}
+
+.volunteer_panel .task_block {
+  border-bottom: 1px solid #E7E7E7;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.volunteer_panel .task_block .task_icon {
+  float: left;
+  margin-left: 5px;
+}
+
+.volunteer_panel .task_block .task_data {
+  margin-left: 65px;
+}
+
+.volunteer_panel .task_block .task_data .task_contents {
+  font-size: 1.3em;
+}
+
+.task_subscribe_form {
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  #secondary-menu {
+    position: static;
+    margin-top: 16px;
+    width: 100%;
+  }
+
+  .without-secondary-menu .region-header {
+    margin-top: 10px;
+  }
+
+  #page-wrapper {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  #main {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .one-sidebar #content {
+    width: 100%;
+  }
+
+  .no-sidebars #content {
+    width: 100%;
+  }
+
+  #sidebar-first, #sidebar-second {
+    width: 100%;
+    order: 2;
+  }
+
+  #footer-columns {
+    width: auto;
+  }
+
+  #footer-columns .region:nth-child(odd) {
+    display: none;
+  }
+
+  #footer-columns .region:nth-child(even) {
+    width: 90%;
+  }
+
+  .activelist {
+    min-height: 0px;
+  }
+
+  .activelist li img.shadow {
+    display: none;
+  }
+
+  .activelist li {
+    width: 15%;
+    height: auto;
+    margin-right: 0px;
+  }
+
+  #paper {
+    display: none;
+  }
+}
+
+/* per gestire il menu dinamico a fondo pagina */
+
+@media only screen and (min-width: 767px) {
+	#secondary-menu.is-fixed ul {
+		position: fixed;
+		width: 90%;
+		right: 5%;
+		max-width: 230px;
+		bottom: 20px;
+		top: auto;
+		background: white;
+		visibility: hidden;
+		z-index: 20;
+		padding: 15px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+		-webkit-transform: scale(0);
+		-moz-transform: scale(0);
+		-ms-transform: scale(0);
+		-o-transform: scale(0);
+		transform: scale(0);
+	}
+
+	#secondary-menu.is-fixed ul li {
+		display: block;
+		float: none;
+	}
+
+	#secondary-menu ul.has-transitions {
+		/* this class is used to bring back transitions when the navigation moves at the bottom right */
+		-webkit-transition: -webkit-transform 0.3s, visibility 0s 0.3s;
+		-moz-transition: -moz-transform 0.3s, visibility 0s 0.3s;
+		transition: transform 0.3s, visibility 0s 0.3s;
+	}
+
+	#secondary-menu ul.is-visible {
+		visibility: visible;
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		-o-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition: -webkit-transform 0.3s, visibility 0s 0s;
+		-moz-transition: -moz-transform 0.3s, visibility 0s 0s;
+		transition: transform 0.3s, visibility 0s 0s;
+	}
+
+	#secondary-menu ul.is-hidden {
+		-webkit-transform: scale(0);
+		-moz-transform: scale(0);
+		-ms-transform: scale(0);
+		-o-transform: scale(0);
+		transform: scale(0);
+		-webkit-transition: -webkit-transform 0.3s;
+		-moz-transition: -moz-transform 0.3s;
+		transition: transform 0.3s;
+	}
+
+	.secondary-menu-trigger.menu-is-open {
+		box-shadow: none;
+		z-index: 21;
+	}
+
+	.secondary-menu-trigger {
+		position: fixed;
+		bottom: 20px;
+		right: 5%;
+		width: 50px;
+		height: 50px;
+		padding: 10px;
+		background: white;
+		border-radius: 0.25em;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+		/* image replacement */
+		overflow: hidden;
+		white-space: nowrap;
+		z-index: 2;
+		/* the the menu triger is hidden by default on desktop devices */
+		visibility: hidden;
+		-webkit-transform: scale(0);
+		-moz-transform: scale(0);
+		-ms-transform: scale(0);
+		-o-transform: scale(0);
+		transform: scale(0);
+		-webkit-transition: -webkit-transform 0.3s, visibility 0s 0.3s;
+		-moz-transition: -moz-transform 0.3s, visibility 0s 0.3s;
+		transition: transform 0.3s, visibility 0s 0.3s;
+	}
+
+	.is-fixed .secondary-menu-trigger {
+		visibility: visible;
+		-webkit-transition: all 0s;
+		-moz-transition: all 0s;
+		transition: all 0s;
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		-o-transform: scale(1);
+		transform: scale(1);
+		-webkit-animation: cd-bounce-in 0.3s linear;
+		-moz-animation: cd-bounce-in 0.3s linear;
+		animation: cd-bounce-in 0.3s linear;
+	}
+}
+
+@-webkit-keyframes cd-slide-in {
+	0% {
+		-webkit-transform: translateX(100px);
+	}
+
+	100% {
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes cd-slide-in {
+	0% {
+		-moz-transform: translateX(100px);
+	}
+
+	100% {
+		-moz-transform: translateY(0);
+	}
+}
+
+@keyframes cd-slide-in {
+	0% {
+		-webkit-transform: translateX(100px);
+		-moz-transform: translateX(100px);
+		-ms-transform: translateX(100px);
+		-o-transform: translateX(100px);
+		transform: translateX(100px);
+	}
+
+	100% {
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-o-transform: translateY(0);
+		transform: translateY(0);
+	}
+}
+
+@-webkit-keyframes cd-bounce-in {
+	0% {
+		-webkit-transform: scale(0);
+	}
+
+	60% {
+		-webkit-transform: scale(1.2);
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+	}
+}
+
+@-moz-keyframes cd-bounce-in {
+	0% {
+		-moz-transform: scale(0);
+	}
+
+	60% {
+		-moz-transform: scale(1.2);
+	}
+
+	100% {
+		-moz-transform: scale(1);
+	}
+}
+
+@keyframes cd-bounce-in {
+	0% {
+		-webkit-transform: scale(0);
+		-moz-transform: scale(0);
+		-ms-transform: scale(0);
+		-o-transform: scale(0);
+		transform: scale(0);
+	}
+
+	60% {
+		-webkit-transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		-ms-transform: scale(1.2);
+		-o-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		-o-transform: scale(1);
+		transform: scale(1);
+	}
+}
+

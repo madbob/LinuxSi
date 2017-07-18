@@ -1,38 +1,41 @@
 <?php
+
 /*
-  Codice della mappa dei negozi Linux-friendly italiani
-  Copyright (C) 2010-2014  Italian Linux Society - http://www.ils.org/
+	Codice della mappa dei negozi Linux-friendly italiani
+	Copyright (C) 2010-2017  Italian Linux Society - http://www.ils.org/
 
-  This program is free software: you can redistribute it and/or modify
-  it under the terms of the GNU Affero General Public License as
-  published by the Free Software Foundation, either version 3 of the
-  License, or (at your option) any later version.
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU Affero General Public License as
+	published by the Free Software Foundation, either version 3 of the
+	License, or (at your option) any later version.
 
-  This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU Affero General Public License for more details.
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU Affero General Public License for more details.
 
-  You should have received a copy of the GNU Affero General Public License
-  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+	You should have received a copy of the GNU Affero General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 require_once ('../funzioni.php');
 lugheader ('Produttori Linux-friendly',
-		array ('produttori.css'),
-		array ('produttori.js'));
+	array ('produttori.css'),
+	array ('produttori.js'));
 
 ?>
 
-<div class="contentsBox">
-	<p>
-		Che fare se non si trova un negozio Linux-friendly vicino casa? Ci si può rivolgere al resto del mercato, ma
-		badando a scegliere un modello di computer i cui componenti siano compatibili con Linux!
-	</p>
-	<p>
-		Qui di seguito, i produttori per i quali è più o meno facile trovare prodotti pienamente supportati: clicca
-		sulle icone per maggiori dettagli.
-	</p>
+<div class="row">
+	<div class="col-md-12">
+		<p>
+			Che fare se non si trova un negozio Linux-friendly vicino casa? Ci si può rivolgere al resto del mercato, ma
+			badando a scegliere un modello di computer i cui componenti siano compatibili con Linux!
+		</p>
+		<p>
+			Qui di seguito, i produttori per i quali è più o meno facile trovare prodotti pienamente supportati: clicca
+			sulle icone per maggiori dettagli.
+		</p>
+	</div>
 </div>
 
 <?php
@@ -269,91 +272,96 @@ uasort ($data, 'sort_vendors');
 	</div>
 </div>
 
-<div class="contentsBox">
-	<?php foreach ($managed as $m): ?>
-		<?php
+<div class="row">
+	<div class="col-md-12">
+		<?php foreach ($managed as $m): ?>
+			<?php
 
-		$n = $m->lname;
-		$icon = $vendors [$n]['icon'];
-		$web = $vendors [$n]['website'];
+			$n = $m->lname;
+			$icon = $vendors [$n]['icon'];
+			$web = $vendors [$n]['website'];
 
-		$scale = array (
-			'Pienamente Compatibile' => ($m->items ['A-platinum'] * 100) / $m->num_items,
-			'Con Problemi Minori' => ($m->items ['B-gold'] * 100) / $m->num_items,
-			'Con Problemi Maggiori' => ($m->items ['C-silver'] * 100) / $m->num_items,
-			'Appena Usabile' => ($m->items ['D-bronze'] * 100) / $m->num_items,
-			'Da Buttare!' => ($m->items ['E-garbage'] * 100) / $m->num_items,
-		);
+			$scale = array (
+				'Pienamente Compatibile' => ($m->items ['A-platinum'] * 100) / $m->num_items,
+				'Con Problemi Minori' => ($m->items ['B-gold'] * 100) / $m->num_items,
+				'Con Problemi Maggiori' => ($m->items ['C-silver'] * 100) / $m->num_items,
+				'Appena Usabile' => ($m->items ['D-bronze'] * 100) / $m->num_items,
+				'Da Buttare!' => ($m->items ['E-garbage'] * 100) / $m->num_items,
+			);
 
-		?>
+			?>
 
-		<div class="vendorsummary" id="<?php echo $n ?>">
-			<img src="icone/<?php echo $icon ?>">
-			<div class="info">
-				<h2><?php echo $m->name ?></h2>
-				<p><a href="<?php echo $web ?>" target="_blank"><?php echo $web ?></a></p>
+			<div class="vendorsummary" id="<?php echo $n ?>">
+				<img src="icone/<?php echo $icon ?>">
+				<div class="info">
+					<h2><?php echo $m->name ?></h2>
+					<p><a href="<?php echo $web ?>" target="_blank"><?php echo $web ?></a></p>
 
-				<div class="details">
-					<div class="row">
-						I modelli testati per questo produttore sono:
-					</div>
-					<?php foreach ($scale as $level => $s): ?>
+					<div class="details">
 						<div class="row">
-							<div class="label"><?php echo $level ?></div>
-							<div class="barwrap">
-								<div class="bar" style="width: <?php echo $s ?>%"></div>
-							</div>
+							I modelli testati per questo produttore sono:
 						</div>
-					<?php endforeach ?>
+						<?php foreach ($scale as $level => $s): ?>
+							<div class="row">
+								<div class="label"><?php echo $level ?></div>
+								<div class="barwrap">
+									<div class="bar" style="width: <?php echo $s ?>%"></div>
+								</div>
+							</div>
+						<?php endforeach ?>
+					</div>
 				</div>
 			</div>
-		</div>
-	<?php endforeach ?>
+		<?php endforeach ?>
+	</div>
 </div>
 
-<div class="contentsBox">
-	<p>
-		Le statistiche sono elaborate a partire dai dati disponibili su <a href="http://h-node.org/">h-node</a>,
-		piattaforma di valutazione della compatibilità dell'hardware con Linux cui vi invitiamo a partecipare per
-		arricchire le informazioni a disposizione.
-	</p>
+<div class="row">
+	<div class="col-md-12">
+		<p>
+			Le statistiche sono elaborate a partire dai dati disponibili su <a href="http://h-node.org/">h-node</a>,
+			piattaforma di valutazione della compatibilità dell'hardware con Linux cui vi invitiamo a partecipare per
+			arricchire le informazioni a disposizione.
+		</p>
+	</div>
 </div>
 
-<div class="contentsBox">
-	<p>
-		Quando intendi acquistare un nuovo PC su cui installare una distribuzione Linux, ti raccomandiamo di verificare sempre:
-	</p>
+<div class="row">
+	<div class="col-md-12">
+		<p>
+			Quando intendi acquistare un nuovo PC su cui installare una distribuzione Linux, ti raccomandiamo di verificare sempre:
+		</p>
 
-	<ul>
-		<li>
-			<p>
-				<b>la compatibilità dell'hardware</b>: non per tutti i componenti si trovano sempre drivers utilizzabili
-				su Linux, o che lo facciano funzionare perfettamente. E' consigliato prima dare una occhiata alle recensioni
-				aggregate su
-			</p>
-			<ul>
-				<li><a href="http://tuxmobil.org/mylaptops.html">Tux Mobil</a></li>
-				<li><a href="http://www.linuxcompatible.org/compatdb/lists/hardware_linux.html">Linux Compatible</a></li>
-				<li><a href="http://www.linuxquestions.org/hcl/index.php?cat=507">Linux Questions</a></li>
-				<li><a href="http://linux-laptop.net/">Linux on Laptops</a></li>
-			</ul>
-			<p>
-				oppure consultare l'elenco di
-				<a href="http://www.ubuntu.com/certification/desktop/">computer certificati per Ubuntu</a>.
-			</p>
-		</li>
+		<ul>
+			<li>
+				<p>
+					<b>la compatibilità dell'hardware</b>: non per tutti i componenti si trovano sempre drivers utilizzabili
+					su Linux, o che lo facciano funzionare perfettamente. E' consigliato prima dare una occhiata alle recensioni
+					aggregate su
+				</p>
+				<ul>
+					<li><a href="http://tuxmobil.org/mylaptops.html">Tux Mobil</a></li>
+					<li><a href="http://www.linuxcompatible.org/compatdb/lists/hardware_linux.html">Linux Compatible</a></li>
+					<li><a href="http://www.linuxquestions.org/hcl/index.php?cat=507">Linux Questions</a></li>
+					<li><a href="http://linux-laptop.net/">Linux on Laptops</a></li>
+				</ul>
+				<p>
+					oppure consultare l'elenco di
+					<a href="http://www.ubuntu.com/certification/desktop/">computer certificati per Ubuntu</a>.
+				</p>
+			</li>
 
-		<li>
-			<p>
-				<b>il rimborso della licenza Windows</b>: benché dovrebbe essere un diritto del consumatore ottenere il rimborso
-				della licenza Windows pre-installata sul computer, non tutti i produttori adempiono a tale dovere. Per maggiori
-				informazioni sul rimborso, su come e perché ottenerlo, e sui fornitori più o meno affidabili, si consulti
-				l'apposito sito <a href="http://sistemainoperativo.it/">sistemainoperativo.it</a>.
-			</p>
-		</li>
-	</ul>
+			<li>
+				<p>
+					<b>il rimborso della licenza Windows</b>: benché dovrebbe essere un diritto del consumatore ottenere il rimborso
+					della licenza Windows pre-installata sul computer, non tutti i produttori adempiono a tale dovere. Per maggiori
+					informazioni sul rimborso, su come e perché ottenerlo, e sui fornitori più o meno affidabili, si consulti
+					l'apposito sito <a href="http://sistemainoperativo.it/">sistemainoperativo.it</a>.
+				</p>
+			</li>
+		</ul>
+	</div>
 </div>
 
-<?php
-lugfooter ();
-?>
+<?php lugfooter () ?>
+
