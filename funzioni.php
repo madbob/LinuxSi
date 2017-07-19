@@ -46,7 +46,7 @@ $elenco_regioni = array (
 
 $data_folder = 'data';
 
-function lugheader ($title, $extracss = null, $extrajs = null) {
+function lugheader ($title, $extracss = null, $extrajs = null, $reduced = false) {
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it">
@@ -150,9 +150,11 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 		</div>
 
 		<div id="main-wrapper" class="clearfix">
+			<?php if ($reduced == false): ?>
 			<div id="main" class="clearfix">
 				<div id="content">
 					<div class="section">
+			<?php endif ?>
 
 <?php
 }
