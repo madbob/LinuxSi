@@ -1917,6 +1917,10 @@ a.anchor {
     padding: 0;
     margin: 0;
   }
+  
+  h1#site-name {
+  	margin: 0 0 0 7px;
+  }
 
   #site-name {
     position: initial;
@@ -1931,6 +1935,10 @@ a.anchor {
     top: 75px;
     left: 110px;
     font-size: 0.6em;
+  }
+  
+  #map {
+  	top: 102px;
   }
 
   .secondary-menu-trigger {

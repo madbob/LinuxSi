@@ -177,12 +177,12 @@ body,
 @media only screen and (max-width: 767px) {
   #secondary-menu {
     position: static;
-    margin-top: 16px;
+    margin-top: 30px;
     width: 100%;
   }
 
   .without-secondary-menu .region-header {
-    margin-top: 10px;
+    display: none;
   }
 
   #page-wrapper {
