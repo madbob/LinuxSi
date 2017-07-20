@@ -39,11 +39,7 @@
 	clear: both;
 	padding: 10px;
 	clear: both;
-	height: 220px;
-}
-
-.vendorsummary .info {
-	margin-top: 20px;
+	height: 260px;
 }
 
 .vendorsummary img {
@@ -61,7 +57,7 @@
 
 .details {
 	display: block;
-	margin-left: 220px;
+	margin-left: 10px;
 }
 
 .details .row {
@@ -71,6 +67,8 @@
 .details .label {
 	width: 39%;
 	display: inline-block;
+	color: black;
+	text-align: left;
 }
 
 .details .barwrap {

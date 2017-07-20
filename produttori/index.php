@@ -293,22 +293,22 @@ uasort ($data, 'sort_vendors');
 
 			<div class="vendorsummary" id="<?php echo $n ?>">
 				<img src="icone/<?php echo $icon ?>">
-				<div class="info">
+				<div class="info pull-right">
 					<h2><?php echo $m->name ?></h2>
 					<p><a href="<?php echo $web ?>" target="_blank"><?php echo $web ?></a></p>
 
 					<div class="details">
-						<div class="row">
-							I modelli testati per questo produttore sono:
-						</div>
-						<?php foreach ($scale as $level => $s): ?>
-							<div class="row">
+						I modelli testati per questo produttore sono:
+
+						<br/>
+						<div>
+							<?php foreach ($scale as $level => $s): ?>
 								<div class="label"><?php echo $level ?></div>
 								<div class="barwrap">
 									<div class="bar" style="width: <?php echo $s ?>%"></div>
 								</div>
-							</div>
-						<?php endforeach ?>
+							<?php endforeach ?>
+						</div>
 					</div>
 				</div>
 			</div>
