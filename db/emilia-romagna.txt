@@ -19,6 +19,7 @@ Modena|Massarenti Franco|Modena|http://www.massarenti.com
 Modena|TeraByte Lab|Modena|http://www.tblab.it
 Parma|XNet|Parma|http://www.xnet-solutions.it
 Ravenna|Alfa Numerica|Ravenna|http://www.alfanumerica.com
+Rimini|LaserOffice|Rimini|http://www.laseroffice.it/blog/about/
 Rimini|Computer System|Rimini|http://www.computersystemrimini.it
 Rimini|Corimtec|Rimini|http://www.corimtec.com
 Sassuolo|Soft-Net|Modena|http://www.soft-net.it
