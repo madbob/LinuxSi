@@ -6,7 +6,7 @@ Mantova|License Free Shop|Mantova|http://www.licfreeshop.com/
 Calcinato|Infogest Informatica|Brescia|http://www.infogestinformatica.it/
 Bovezzo|Modicia|Brescia|http://www.modicia.com/
 Pozzolengo|3MP Computer|Brescia|http://www.3mpcomputer.it
-Rovato|Pc-Brescia.com|Brescia|http://www.pc-brescia.com/
+Rovato|Rovato Computer|Brescia|https://www.rovatocomputer.com/
 Fenegrò|Mediaservice|Como|http://www.mediaservicesnc.it/
 Lecco|YetOpen|Lecco|http://www.yetopen.it/
 Saronno|PC Generation|Varese|http://www.pcgen.it
