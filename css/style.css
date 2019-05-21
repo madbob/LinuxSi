@@ -543,6 +543,7 @@ h1#site-name {
   padding: 0;
   float: left; /* LTR */
   background-image: none;
+  list-style: none;
 }
 
 #secondary-menu-links a.active,

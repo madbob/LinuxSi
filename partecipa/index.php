@@ -26,7 +26,7 @@ lugheader ('Partecipa');
 <div class="row">
 	<div class="col-md-8">
 		<p>
-			<a href="mailto:lugmap@linux.it">Contattaci</a> per segnalare negozi non ancora indicizzati, negozi non più esistenti, per commenti, o per chiederci di inviarti (gratuitamente) l'adesivo LinuxSi da applicare sulla tua vetrina (rotondo, diametro 7cm, bianco, plastificato per esterni).
+			<a href="mailto:webmaster@linux.it">Contattaci</a> per segnalare negozi non ancora indicizzati, negozi non più esistenti, per commenti, o per chiederci di inviarti (gratuitamente) l'adesivo LinuxSi da applicare sulla tua vetrina (rotondo, diametro 7cm, bianco, plastificato per esterni).
 		</p>
 		<p>
 			Nota bene: vengono approvati solo i rivenditori che hanno un sito, e sul sito viene espressamente citata l'attività di vendita di computer con Linux o senza sistema operativo!
