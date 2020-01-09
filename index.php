@@ -105,7 +105,7 @@ lugheader ('LinuxSi');
 		<div class="regioni">
 			<?php
 			foreach ($elenco_regioni as $file => $nome) {
-				echo '<a id="' . $file . '" href="/'.$file.'/">' . $nome . '</a><br>';
+				echo "<a id=\"$file\" href=\"/regioni/$file/\">$nome</a><br>";
 			}
 			?>
 		</div>
