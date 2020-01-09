@@ -89,9 +89,11 @@ usort ($db_regione, 'sort_by_province');
 			</tr>
 		</tfoot>
 		<tbody>
-			<?php while (list ($nriga, $linea) = each ($db_regione)):
-				if (empty($linea))
+			<?php
+			foreach($db_regione as $nriga => $linea):
+				if (empty($linea)) {
 					continue;
+				}
 
 				$campi         = explode("|", trim($linea)); # estrazione dei campi
 				$comune        = $campi[0];
@@ -114,7 +116,7 @@ usort ($db_regione, 'sort_by_province');
 					<td><?php echo $indirizzo ?>, <?php echo $comune ?></td>
 					<?php endif ?>
 				</tr>
-			<?php endwhile;?>
+			<?php endforeach; ?>
 		</tbody>
 	</table>
 
