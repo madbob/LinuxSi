@@ -30,7 +30,7 @@ lugheader ('LinuxSi');
 				Su LinuxSi trovi un elenco quanto pi&ugrave; aggiornato e dettagliato possibile sui negozi in cui acquistare PC nuovi con <a href="http://www.linux.it/">Linux</a> preinstallato o senza sistema operativo (e sul cui prezzo non va dunque a pesare il costo di una nuova licenza).
 			</p>
 			<p>
-				Sono inoltre disponibili <a href="/regione.php">l'elenco completo di tutti i negozi</a> ordinati per provincia e una pagina dedicata alle <a href="/statistiche.php">statistiche</a>.
+				È inoltre disponibile <a href="/regioni">l'elenco completo di tutti i negozi</a> ordinati per provincia e una pagina dedicata alle <a href="/statistiche.php">statistiche</a>.
 			</p>
 		</div>
 	</div><!--
