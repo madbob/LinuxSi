@@ -91,7 +91,7 @@ lugheader ('LinuxSi');
 						R.safari();
 					};
 					st[0].onclick = function () {
-						window.location = 'http://www.linuxsi.com/' + state.replace (/_/g, '-');
+						window.location = '//' + window.location.host + '/regioni/' + state.replace (/_/g, '-');
 					};
 				})(ita[state], state);
 			}
