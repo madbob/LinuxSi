@@ -1847,22 +1847,30 @@ a.anchor {
 	margin: 10px 0;
 }
 
+#lugListTable {
+  max-width: 100%;
+}
+
 #lugListTable th, #lugListTable td {
-	border: 1px solid black;
-	font-size: 12px;
-	padding: 5px;
+	border: 0;
+	font-size: 1.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 	text-align: center;
 }
 
-#lugListTable table, #lugListTable th, #lugListTable td {
-	border: 1px solid black;
-	background-color: transparent;
-	font-size: 12px;
+#lugListTable tr, #lugListTable tr th {
+	background: transparent;
 }
 
 #lugListTable td.province {
 	font-weight: bold;
 	text-align: left;
+	padding-left: 1em;
+}
+
+#lugListTable td.address {
+  font-size: 1.3em;
 }
 
 #lugListTable td.contactUrl a {
@@ -1871,11 +1879,6 @@ a.anchor {
 
 #lugListTable td.contactUrl {
 	text-align: right;
-}
-
-#lugListTable {
-	border-collapse:collapse;
-	width:100%;
 }
 
 #lugListTable thead, #lugListTable tfoot {
@@ -1892,7 +1895,7 @@ a.anchor {
 }
 
 #lugListTable tr.row_special td {
-	border: 0px;
+	border: 0;
 	background-color: #fff;
 }
 

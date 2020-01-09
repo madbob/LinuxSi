@@ -78,7 +78,7 @@ usort ($db_regione, 'sort_by_province');
 		<thead>
 			<tr>
 				<th>Provincia</th>
-				<th>Zona</th>
+				<th>Comune</th>
 				<th>Denominazione</th>
 				<th>Indirizzo</th>
 			</tr>
@@ -113,7 +113,7 @@ usort ($db_regione, 'sort_by_province');
 					<?php if($indirizzo === ''): ?>
 					<td></td>
 					<?php else: ?>
-					<td><?php echo $indirizzo ?>, <?php echo $comune ?></td>
+					<td class="address"><?php echo $indirizzo ?>, <?php echo $comune ?></td>
 					<?php endif ?>
 				</tr>
 			<?php endforeach; ?>
