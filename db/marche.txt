@@ -1,2 +1,2 @@
-Jesi|Ciampistore online|Ancona|http://www.ciampistore.it
-San Benedetto del Tronto|Tecnoplanet|Ascoli Piceno|http://www.tecnoplanet.it
+Jesi|Ciampistore online|Ancona|http://www.ciampistore.it|
+San Benedetto del Tronto|Tecnoplanet|Ascoli Piceno|http://www.tecnoplanet.it|

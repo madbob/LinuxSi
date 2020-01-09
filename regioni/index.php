@@ -80,11 +80,12 @@ usort ($db_regione, 'sort_by_province');
 				<th>Provincia</th>
 				<th>Zona</th>
 				<th>Denominazione</th>
+				<th>Indirizzo</th>
 			</tr>
 		</thead>
 		<tfoot>
 			<tr>
-				<td colspan="3"></td>
+				<td colspan="4"></td>
 			</tr>
 		</tfoot>
 		<tbody>
@@ -92,16 +93,26 @@ usort ($db_regione, 'sort_by_province');
 				if (empty($linea))
 					continue;
 
-				$campi         = explode("|",$linea); # estrazione dei campi
-				$provincia     = $campi[2];
+				$campi         = explode("|", trim($linea)); # estrazione dei campi
+				$comune        = $campi[0];
 				$denominazione = $campi[1];
-				$zona          = $campi[0];
+				$provincia     = $campi[2];
 				$sito          = $campi[3];
+				$indirizzo     = $campi[4];
 				# stampa dei campi ?>
 				<tr class="row_<?php echo ($nriga % 2); ?>">
 					<td class="province"><?php echo $provincia ?></td>
-					<td><?php echo $zona?></a></td>
+					<td><?php echo $comune?></a></td>
+					<?php if($sito === ''): ?>
+					<td><?php echo $denominazione ?></td>
+					<?php else: ?>
 					<td><a href="<?php echo $sito ?>"><?php echo $denominazione ?></a></td>
+					<?php endif ?>
+					<?php if($indirizzo === ''): ?>
+					<td></td>
+					<?php else: ?>
+					<td><?php echo $indirizzo ?>, <?php echo $comune ?></td>
+					<?php endif ?>
 				</tr>
 			<?php endwhile;?>
 		</tbody>

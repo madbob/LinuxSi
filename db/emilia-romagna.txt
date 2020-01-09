@@ -1,27 +1,27 @@
-Bellaria Igea Marina|Chip Office Automation|Rimini|http://www.cic-computer.it
-Bologna|Avac Media|Bologna|http://www.avacmedia.it
-Bologna|CIC Computer|Bologna|http://www.cic-computer.it
-Bologna|Computer Wizard|Bologna|http://www.cwizard.it
-Bologna|Kinetica|Bologna|http://www.kinetica.it
-Carpi|Computer Centers|Modena|http://computercenters.net/
-Carpi|Easy Input|Modena|http://easy-input.it/
-Castel Maggiore|Coreopsys Informatica|Bologna|http://www.coreopsys.it
-Castel Maggiore|Sptech di Fabio Scazzieri|Bologna|http://www.sptech.it
-Codigoro|Zetasistemi|Ferrara|http://www.zetasistemi.it/
-Correggio|Web-LAN|Reggio Emilia|http://www.web-lan.it/
-Faenza|Perfect Circle|Ravenna|http://perfectcircle.it
-Faenza|Infocenter|Ravenna|http://www.aaz.it
-Lugo|BitLine|Ravenna|http://www.bitlinecomputers.com
-Modena|E. Sistem Personal Computer|Modena|http://www.esistem.net
-Modena|Ferrari Computers|Modena|http://www.ferrari-computers.it/
-Modena|Informanet|Modena|http://www.informanet.mo.it
-Modena|Massarenti Franco|Modena|http://www.massarenti.com
-Modena|TeraByte Lab|Modena|http://www.tblab.it
-Parma|XNet|Parma|http://www.xnet-solutions.it
-Ravenna|Alfa Numerica|Ravenna|http://www.alfanumerica.com
-Rimini|LaserOffice|Rimini|http://www.laseroffice.it/blog/about/
-Rimini|Computer System|Rimini|http://www.computersystemrimini.it
-Rimini|Corimtec|Rimini|http://www.corimtec.com
-Sassuolo|Soft-Net|Modena|http://www.soft-net.it
-Savignano sul Rubicone|Electronics Adriatica|Forlì-Cesena|http://www.electronicsadriatica.it
-Soliera|Laboratori Aidan|Modena|http://www.aidan.it
+Bellaria Igea Marina|Chip Office Automation|Rimini|http://www.cic-computer.it|
+Bologna|Avac Media|Bologna|http://www.avacmedia.it|
+Bologna|CIC Computer|Bologna|http://www.cic-computer.it|
+Bologna|Computer Wizard|Bologna|http://www.cwizard.it|
+Bologna|Kinetica|Bologna|http://www.kinetica.it|
+Carpi|Computer Centers|Modena|http://computercenters.net/|
+Carpi|Easy Input|Modena|http://easy-input.it/|
+Castel Maggiore|Coreopsys Informatica|Bologna|http://www.coreopsys.it|
+Castel Maggiore|Sptech di Fabio Scazzieri|Bologna|http://www.sptech.it|
+Codigoro|Zetasistemi|Ferrara|http://www.zetasistemi.it/|
+Correggio|Web-LAN|Reggio Emilia|http://www.web-lan.it/|
+Faenza|Perfect Circle|Ravenna|http://perfectcircle.it|
+Faenza|Infocenter|Ravenna|http://www.aaz.it|
+Lugo|BitLine|Ravenna|http://www.bitlinecomputers.com|
+Modena|E. Sistem Personal Computer|Modena|http://www.esistem.net|
+Modena|Ferrari Computers|Modena|http://www.ferrari-computers.it/|
+Modena|Informanet|Modena|http://www.informanet.mo.it|
+Modena|Massarenti Franco|Modena|http://www.massarenti.com|
+Modena|TeraByte Lab|Modena|http://www.tblab.it|
+Parma|XNet|Parma|http://www.xnet-solutions.it|
+Ravenna|Alfa Numerica|Ravenna|http://www.alfanumerica.com|
+Rimini|LaserOffice|Rimini|http://www.laseroffice.it/blog/about/|
+Rimini|Computer System|Rimini|http://www.computersystemrimini.it|
+Rimini|Corimtec|Rimini|http://www.corimtec.com|
+Sassuolo|Soft-Net|Modena|http://www.soft-net.it|
+Savignano sul Rubicone|Electronics Adriatica|Forlì-Cesena|http://www.electronicsadriatica.it|
+Soliera|Laboratori Aidan|Modena|http://www.aidan.it|

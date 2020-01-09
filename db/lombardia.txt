@@ -1,13 +1,13 @@
-Bergamo|KOAN s.a.s.|Bergamo|http://www.koala.it
-Cazzano Sant'Andrea|Sunflower Computers|Bergamo|http://www.sunflower-computers.com
-Curno|CD Bergamo|Bergamo|http://www.cdbergamo.it
-Mantova|License Free Shop|Mantova|http://www.licfreeshop.com/
-Calcinato|Infogest Informatica|Brescia|http://www.infogestinformatica.it/
-Bovezzo|Modicia|Brescia|http://www.modicia.com/
-Pozzolengo|3MP Computer|Brescia|http://www.3mpcomputer.it
-Rovato|Rovato Computer|Brescia|https://www.rovatocomputer.com/
-Fenegrò|Mediaservice|Como|http://www.mediaservicesnc.it/
-Lecco|YetOpen|Lecco|http://www.yetopen.it/
-Saronno|PC Generation|Varese|http://www.pcgen.it
-Vigevano|Dr. Stein|Pavia|http://www.drstein.it
-Pavia|Get Ready|Pavia|http://www.getready.it
+Bergamo|KOAN s.a.s.|Bergamo|http://www.koala.it|
+Cazzano Sant'Andrea|Sunflower Computers|Bergamo|http://www.sunflower-computers.com|
+Curno|CD Bergamo|Bergamo|http://www.cdbergamo.it|
+Mantova|License Free Shop|Mantova|http://www.licfreeshop.com/|
+Calcinato|Infogest Informatica|Brescia|http://www.infogestinformatica.it/|
+Bovezzo|Modicia|Brescia|http://www.modicia.com/|
+Pozzolengo|3MP Computer|Brescia|http://www.3mpcomputer.it|
+Rovato|Rovato Computer|Brescia|https://www.rovatocomputer.com/|
+Fenegrò|Mediaservice|Como|http://www.mediaservicesnc.it/|
+Lecco|YetOpen|Lecco|http://www.yetopen.it/|
+Saronno|PC Generation|Varese|http://www.pcgen.it|
+Vigevano|Dr. Stein|Pavia|http://www.drstein.it|
+Pavia|Get Ready|Pavia|http://www.getready.it|
