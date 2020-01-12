@@ -30,10 +30,10 @@ function sort_by_province ($a, $b) {
 }
 
 if ($_SERVER["SCRIPT_NAME"] === '/regioni/index.php') { # qui se sono stato invocato alla vecchia maniera
-	require_once (__DIR__ . '/../funzioni.php');
+	require_once ('../funzioni.php');
 	$db_regione = array();
 
-	foreach(glob(__DIR__ . '/../db/*.txt') as $db_file) {
+	foreach(glob('../db/*.txt') as $db_file) {
 		$db_regione = array_merge($db_regione, file($db_file));
 	}
 
@@ -41,12 +41,12 @@ if ($_SERVER["SCRIPT_NAME"] === '/regioni/index.php') { # qui se sono stato invo
 	$regione = 'Italia';
 	$title = 'LinuxSi: i negozi italiani';
 }
-else { # qui sono stato invocato da /nome-regione/
-	require_once (__DIR__ . '/../funzioni.php');
+else { # qui sono stato invocato da /regioni/nome-regione/
+	require_once ('../../funzioni.php');
 	$regione = explode('/', dirname($_SERVER["SCRIPT_NAME"]))[2]; # estraggo la regione dal percorso
 
 	if(array_key_exists($regione, $elenco_regioni)) { # lasciamo il controllo, ma in ogni caso dovremmo ottenere un 404
-		$db_file = __DIR__ . '/../db/' . $regione . '.txt';
+		$db_file = '../../db/' . $regione . '.txt';
 		$db_regione = file($db_file);
 		$title = 'LinuxSi: ' . $elenco_regioni[$regione];
 	} else {
