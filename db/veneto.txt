@@ -1,7 +1,7 @@
 Ponte nelle Alpi|X-labs|Belluno|http://www.xlabs.it|
-Padova|Pronto Soccorso PC|Padova|http://www.prontosoccorsopc.net/|Via Cirenaica, 6
-Conselve|Free PC Italia|Padova|http://www.freepcitalia.com/|via Roma, 14
+Padova|Pronto Soccorso PC|Padova|http://www.prontosoccorsopc.net/|Via Cirenaica 6
+Conselve|Free PC Italia|Padova|http://www.freepcitalia.com/|via Roma 14
 Verona|Computer 2000|Verona|http://computer2000vr.blogspot.com|
-Vicenza|Orion Informatica|Vicenza|https://www.orioncomputer.it/|Via Mameli, 174
+Vicenza|Orion Informatica|Vicenza|https://www.orioncomputer.it/|Via Mameli 174
 Vicenza|Ver1tas Informatica|Vicenza|http://www.ver1tas.it/|
-Schio|Il Processore|Vicenza|https://il-processore.business.site/|Via Cristoforo Magrè, 6/8
+Schio|Il Processore|Vicenza|https://il-processore.business.site/|Via Cristoforo Magrè 6/8
