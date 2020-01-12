@@ -370,7 +370,7 @@ function ultimo_aggiornamento () {
 }
 
 function log_mail ($message) {
-	//mail ('webmaster@linux.it', 'errore su linuxsi.com', $message . "\n", 'From: linux.it <webmaster@linux.it>' . "\r\n");
+	mail ('webmaster@linux.it', 'errore su linuxsi.com', $message . "\n", 'From: linux.it <webmaster@linux.it>' . "\r\n");
 }
 
 ?>
