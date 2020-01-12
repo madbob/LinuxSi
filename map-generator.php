@@ -211,16 +211,32 @@ foreach ($elenco_regioni as $region => $region_name) {
 		$name = $attr [1];
 		$city = $attr [0];
 
-		if ($addr === '') {
-			$c = rawurlencode ("$city, $prov");
-		} else {
-			$c = rawurlencode ("$addr, $city, $prov");
-		}
+		$c = [];
+        if ($addr !== '') {
+	        $c[] = rawurlencode("$addr, $city, $prov");
 
-		$result = ask_coordinates ($c);
-		if ($result == null) {
-			$c = str_replace (' ', '%20', $city);
-			$result = ask_coordinates ($c);
+	        // Ultimo spazio nella stringa con l'indirizzo (e.g. "Via Di Test 12bis" => tra "Via Di Test" e "12bis"
+	        $lastspace = strrpos ($addr, ' ', -1);
+	        if ($lastspace !== false) {
+		        $strada = substr ($addr, 0, $lastspace);
+		        $civico = substr ($addr, $lastspace);
+		        // Il civico è davvero un civico (12, 12bis, 12/14, etc... sono validi)
+		        // A volte c'è solo il nome di una strada perché è senza numero civico
+		        if (strpbrk ($civico, '1234567890') !== false) {
+			        // Prova con il nome della strada, senza il civico
+			        $c[] = rawurlencode ("$strada, $city, $prov");
+		        }
+	        }
+        }
+        // Per disperazione prova solo con la città
+        $c[] = rawurlencode ("$city, $prov");
+        $c[] = rawurlencode ("$city");
+
+        foreach($c as $askthis) {
+			$result = ask_coordinates($askthis);
+			if ($result !== null) {
+				break;
+			}
 		}
 
 		if ($result != null) {
@@ -248,7 +264,7 @@ foreach ($elenco_regioni as $region => $region_name) {
 			array_push ($output->features, $point);
 		}
 		else {
-			log_mail ("Impossibile gestire la zona '$zone', si consiglia l'analisi manuale");
+			log_mail ("Impossibile gestire la zona '$c[0]', si consiglia l'analisi manuale");
 		}
 	}
 }
