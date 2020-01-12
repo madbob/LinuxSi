@@ -1,10 +1,10 @@
-Torino|Computer Valley|Torino|http://www.computervalley.it
-Torino|TorinoComputer|Torino|http://www.torinocomputer.it/
-Rivalta di Torino|MWI Markweb Informatica|Torino|http://www.markwebinformatica.net/
-Lusernetta|Solution PC|Torino|http://www.solutionpc.net
-Grange di Front|M-tech|Torino|http://m-techpc.blogspot.it/
-Ivrea|DLL Informatica|Torino|http://www.dllinformatica.it/
-Bra|Valeriano Store|Cuneo|http://www.valeriano.net
-Bra|Pronto Soccorso Informatico|Cuneo|http://www.prontosoccorsoinformatico.it/
-Novara|MWI Markweb Informatica|Novara|http://www.markwebinformatica.net/
-Villanova d'Asti|Up Informatica|Asti|http://www.upinform.com/
+Torino|Computer Valley|Torino|http://www.computervalley.it|Via Nizza, 141/A
+Torino|TorinoComputer|Torino|http://www.torinocomputer.it/|
+Orbassano|MWI Markweb Informatica|Torino|https://www.markwebinformatica.net/|Via S. Rocco, 1
+Perosa Argentina|Alpimedia (Solution PC)|Torino|www.alpimedia.com|Località San Sebastiano, 29/7
+Grange di Front|M-tech|Torino|http://m-techpc.blogspot.it/|
+Ivrea|DLL Informatica|Torino|http://www.dllinformatica.it/|
+Bra|Valeriano Store|Cuneo|http://www.valeriano.net|
+Bra|Pronto Soccorso Informatico|Cuneo|http://www.prontosoccorsoinformatico.it/|Via Pollenzo, 17
+Novara|MWI Markweb Informatica|Novara|https://www.markwebinformatica.net/|Viale Papa Giovanni XXIII, 52
+Villanova d'Asti|Up Informatica|Asti|http://www.upinform.com/|
