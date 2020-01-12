@@ -204,13 +204,18 @@ foreach ($elenco_regioni as $region => $region_name) {
 		$result = null;
 		$doshift = false;
 
-		$attr = explode ('|', $shop);
+		$attr = explode ('|', trim($shop));
+		$addr = $attr [4];
 		$site = $attr [3];
 		$prov = $attr [2];
 		$name = $attr [1];
 		$city = $attr [0];
 
-		$c = str_replace (' ', '%20', $city) . ',' . str_replace (' ', '%20', $prov);
+		if ($addr === '') {
+			$c = rawurlencode ("$city, $prov");
+		} else {
+			$c = rawurlencode ("$addr, $city, $prov");
+		}
 
 		$result = ask_coordinates ($c);
 		if ($result == null) {
