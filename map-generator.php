@@ -236,6 +236,11 @@ foreach ($elenco_regioni as $region => $region_name) {
 			$point->properties = new stdClass ();
 			$point->properties->name = $name;
 			$point->properties->website = $site;
+			if($addr === '') {
+				$point->properties->address = $city;
+			} else {
+				$point->properties->address = "$addr, $city";
+			}
 			$point->geometry = new stdClass ();
 			$point->geometry->type = "Point";
 			$point->geometry->coordinates = array ($lon, $lat);
