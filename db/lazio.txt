@@ -1,6 +1,6 @@
-Roma|Meg@byte Informatica SRL|Roma|http://www.megabyteinformatica.it|Via Tripoli 17
-Roma|Syspack|Roma|https://www.syspack.com|Via Sibilla Aleramo 20
-Roma|Binario Etico|Roma|https://www.binarioetico.org|
-Roma|Reware|Roma|https://reware.it/|Via del Forte Tiburtino 98
-Frosinone|Finelli|Frosinone|http://www.finellicomputer.it|Via Casilina Nord 48
-Aprilia|Gears Computer|Latina|http://www.gearscomputer.it/|Via Oleandri 17
+Roma|Meg@byte Informatica SRL|Roma|http://www.megabyteinformatica.it|Via Tripoli 17|
+Roma|Syspack|Roma|https://www.syspack.com|Via Sibilla Aleramo 20|
+Roma|Binario Etico|Roma|https://www.binarioetico.org||
+Roma|Reware|Roma|https://reware.it/|Via del Forte Tiburtino 98|
+Frosinone|Finelli|Frosinone|http://www.finellicomputer.it|Via Casilina Nord 48|
+Aprilia|Gears Computer|Latina|http://www.gearscomputer.it/|Via Oleandri 17|

@@ -1,4 +1,4 @@
-Nicotera|AMG Elettronica|Vibo Valentia|http://www.amgelettronica.it|Via Barriera
-Vibo Valentia|Kernel|Vibo Valentia|http://www.kernelweb.it|Zona Industriale loc. “Aeroporto”
-Ionadi|Kernel|Vibo Valentia|http://www.kernelweb.it|Viale De Filippis 52/54
-Catanzaro|Kernel|Catanzaro|http://www.kernelweb.it|Via Nazionale
+Nicotera|AMG Elettronica|Vibo Valentia|http://www.amgelettronica.it|Via Barriera|38.5574,15.9411
+Vibo Valentia|Kernel|Vibo Valentia|http://www.kernelweb.it|Zona Industriale loc. “Aeroporto”|
+Ionadi|Kernel|Vibo Valentia|http://www.kernelweb.it|Via Nazionale|38.6469,16.0545
+Catanzaro|Kernel|Catanzaro|http://www.kernelweb.it|Viale De Filippis 52/54|38.8992,16.5837

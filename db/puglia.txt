@@ -1,5 +1,5 @@
-Giovinazzo|Tiny Green PC|Bari|http://www.tinygreenpc.it/|
-Rutigliano|Rehardwareing|Bari|https://rhw.coop|Via Don Tonino Bello 6
-Novoli|Passione PC|Lecce|http://www.passionepc.it|
-Palagiano|Web Services|Taranto|http://www.webser.net|via Medea 4
-San Giovanni Rotondo|Selene Informatica|Foggia|http://www.seleneinformatica.it|Via Fraticelli 17
+Giovinazzo|Tiny Green PC|Bari|http://www.tinygreenpc.it/||
+Rutigliano|Rehardwareing|Bari|https://rhw.coop|Via Don Tonino Bello 6|
+Novoli|Passione PC|Lecce|http://www.passionepc.it||
+Palagiano|Web Services|Taranto|http://www.webser.net|via Medea 4|
+San Giovanni Rotondo|Selene Informatica|Foggia|http://www.seleneinformatica.it|Via Fraticelli 17|
