@@ -228,6 +228,7 @@ function generate_search_strings ($addr, $city, $prov) {
 	return $c;
 }
 
+header ('Content-Type: text/plain; charset=utf-8');
 foreach ($elenco_regioni as $region => $region_name) {
 	$shops = file ('http://raw.github.com/madbob/LinuxSi/master/db/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
 	//$shops = file (__DIR__ . '/db/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
@@ -291,6 +292,7 @@ foreach ($elenco_regioni as $region => $region_name) {
 			log_mail ("Impossibile gestire la zona '$c[0]', si consiglia l'analisi manuale");
 		}
 	}
+	echo '✅️ ' . $region . ".txt\r\n";
 }
 
 write_geo_file ('geo.txt', json_encode ($output));
@@ -298,3 +300,4 @@ save_geocache ();
 
 fetch_stats_file ();
 
+echo "✅️ cache\r\n";
