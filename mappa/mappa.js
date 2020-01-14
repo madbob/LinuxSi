@@ -90,7 +90,7 @@ function loadLayer(url) {
 	var myLayer = L.geoJson(url,{
 		onEachFeature: function onEachFeature(feature, layer) {
 			if (feature.properties && feature.properties.name) {
-				layer.bindPopup (feature.properties.name + "<br/><a href='" + feature.properties.website + "'>Sito web</a>");
+				layer.bindPopup ("<b>" + feature.properties.name + "</b><br/><span>" + feature.properties.address + "</span><br/><a href='" + feature.properties.website + "'>Sito web</a>");
 			}
 		},
 		pointToLayer: function (feature, latlng) {

@@ -1,4 +1,4 @@
-Romans d'Isonzo|Alba IT|Gorizia|http://www.albait.biz/|via Cividale, 5A
-Fagagna|Diamante Paolo|Udine|http://www.dpc-computer.com|Piazza Unità d'Italia, 11
-San Giorgio di Nogaro|Labortech|Udine|http://www.labortech.it|Piazza del grano 9
-Trieste|e.tel.|Trieste|http://www.etelindustriale.net|
+Romans d'Isonzo|Alba IT|Gorizia|http://www.albait.biz/|via Cividale 5A|
+Fagagna|Diamante Paolo|Udine|http://www.dpc-computer.com|Piazza Unità d'Italia 11|
+San Giorgio di Nogaro|Labortech|Udine|http://www.labortech.it|Piazza del grano 9|
+Trieste|e.tel.|Trieste|http://www.etelindustriale.net||
