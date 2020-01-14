@@ -29,29 +29,35 @@ function sort_by_province ($a, $b) {
 	return $cmp;
 }
 
-if ($_SERVER["SCRIPT_NAME"] === '/regioni/index.php') { # qui se sono stato invocato alla vecchia maniera
-	require_once ('../funzioni.php');
-	$db_regione = array();
+try {
+	if ($_SERVER["SCRIPT_NAME"] === '/regioni/index.php') { # qui se sono stato invocato alla vecchia maniera
+		require_once ('../funzioni.php');
+		$db_regione = array();
 
-	foreach(glob('../db/*.txt') as $db_file) {
-		$db_regione = array_merge($db_regione, file($db_file));
+		foreach(glob('../db/*.txt') as $db_file) {
+			$db_regione = array_merge($db_regione, file($db_file));
+		}
+
+		$db_file = null;
+		$regione = 'Italia';
+		$title = 'LinuxSi: i negozi italiani';
 	}
+	else { # qui sono stato invocato da /regioni/nome-regione/
+		require_once ('../../funzioni.php');
+		$regione = explode('/', dirname($_SERVER["SCRIPT_NAME"]))[2]; # estraggo la regione dal percorso
 
-	$db_file = null;
-	$regione = 'Italia';
-	$title = 'LinuxSi: i negozi italiani';
+		if(array_key_exists($regione, $elenco_regioni)) { # lasciamo il controllo, ma in ogni caso dovremmo ottenere un 404
+			$db_file = '../../db/' . $regione . '.txt';
+			$db_regione = file($db_file);
+			$title = 'LinuxSi: ' . $elenco_regioni[$regione];
+		} else {
+			header("location: /");
+		}
+	}
 }
-else { # qui sono stato invocato da /regioni/nome-regione/
-	require_once ('../../funzioni.php');
-	$regione = explode('/', dirname($_SERVER["SCRIPT_NAME"]))[2]; # estraggo la regione dal percorso
-
-	if(array_key_exists($regione, $elenco_regioni)) { # lasciamo il controllo, ma in ogni caso dovremmo ottenere un 404
-		$db_file = '../../db/' . $regione . '.txt';
-		$db_regione = file($db_file);
-		$title = 'LinuxSi: ' . $elenco_regioni[$regione];
-	} else {
-		header("location: /");
-	}
+catch(Exception $e) {
+	echo "Errore inizializzazione accesso pagina regione: " . $e->getMessage();
+	exit();
 }
 
 lugheader ($title);
