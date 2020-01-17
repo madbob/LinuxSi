@@ -1,5 +1,5 @@
-Borgo San Lorenzo|FlashInLab Tecnology|Firenze|https://www.flashinlabs.biz|Piazza del mercato 9
-Empoli|Ollo Store|Firenze|https://www.ollo.it/|Piazza Matteotti 15
-Pisa|ICT Pisa|Pisa|http://www.ictpisa.it/|Via Rustichello da Pisa, 21
-Pistoia|Platinum Services|Pistoia|http://www.platinumservices.it|Via Dalmazia, 306
-Prato|Sedecom|Prato|http://www.sedecom.it|Via Dora Baltea, 26
+Borgo San Lorenzo|FlashInLab Tecnology|Firenze|https://www.flashinlabs.biz|Piazza del mercato 9|
+Empoli|Ollo Store|Firenze|https://www.ollo.it/|Piazza Matteotti 15|
+Pisa|ICT Pisa|Pisa|http://www.ictpisa.it/|Via Rustichello da Pisa 21|
+Pistoia|Platinum Services|Pistoia|http://www.platinumservices.it|Via Dalmazia 306|
+Prato|Sedecom|Prato|http://www.sedecom.it|Via Dora Baltea 26|

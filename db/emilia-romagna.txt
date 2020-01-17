@@ -1,27 +1,27 @@
-Bellaria Igea Marina|Chip Office Automation|Rimini|http://www.cic-computer.it|
-Bologna|Avac Media|Bologna|http://www.avacmedia.it|
-Bologna|CIC Computer|Bologna|http://www.cic-computer.it|Via F. Baracca 5/D
-Bologna|Computer Wizard|Bologna|https://www.cwizard.it|Via Floriano Ambrosini, 2/D
-Bologna|Kinetica|Bologna|https://www.kinetica.it|Via Decumana, 66/a
-Carpi|Computer Centers|Modena|http://computercenters.net/|Via Galileo Ferraris, 16a
-Carpi|Easy Input|Modena|https://easy-input.it/|via Manzoni, 51/A
-Castel Maggiore|Coreopsys Informatica|Bologna|http://www.coreopsys.it|
-Castel Maggiore|Sptech di Fabio Scazzieri|Bologna|http://www.sptech.it|Via dei Lapidari, 18/11A
-Codigoro|Zetasistemi|Ferrara|http://www.zetasistemi.it/|
-Correggio|WebLan|Reggio Emilia|http://www.web-lan.it/|
-Faenza|Perfect Circle|Ravenna|http://perfectcircle.it|
-Faenza|Infocenter|Ravenna|http://www.aaz.it|Corso Garibaldi, 33
-Lugo|BitLine|Ravenna|http://www.bitlinecomputers.com|Via Concordia, 7/1
-Modena|E. Sistem Personal Computer|Modena|http://www.esistem.net|via Luosi, 177-179
-Modena|Ferrari Computers|Modena|http://www.ferrari-computers.it/|Via Gian Maria Barbieri, 30
-Modena|Informanet|Modena|http://www.informanet.mo.it|
-Modena|Massarenti Franco|Modena|http://www.massarenti.com|
-Modena|TeraByte Lab|Modena|http://www.tblab.it|Via Antonio Araldi, 263/265
-Parma|XNet|Parma|http://www.xnet-solutions.it|
-Ravenna|AlfaNumerica|Ravenna|http://www.alfanumerica.com|Via Monte Cimone, 5
-Rimini|Laser Office|Rimini|http://www.laseroffice.it/blog/about/|
-Rimini|Computer System|Rimini|https://www.computersystemrimini.it|Via Bidente 1/M
-Rimini|Corimtec|Rimini|http://www.corimtec.com|
-Sassuolo|Soft-Net|Modena|http://www.soft-net.it|Via Adda, 50/G
-Savignano sul Rubicone|Electronics Adriatica|Forlì-Cesena|http://www.electronicsadriatica.it|Via Francesco Baracca, 9
-Soliera|Laboratori Aidan|Modena|http://www.aidan.it|
+Bellaria Igea Marina|Chip Office Automation|Rimini|http://www.cic-computer.it||
+Bologna|Avac Media|Bologna|http://www.avacmedia.it||
+Bologna|CIC Computer|Bologna|http://www.cic-computer.it|Via F. Baracca 5/D|
+Bologna|Computer Wizard|Bologna|https://www.cwizard.it|Via Floriano Ambrosini 2/D|
+Bologna|Kinetica|Bologna|https://www.kinetica.it|Via Decumana 66/a|
+Carpi|Computer Centers|Modena|http://computercenters.net/|Via Galileo Ferraris 16a|
+Carpi|Easy Input|Modena|https://easy-input.it/|via Manzoni 51/A|
+Castel Maggiore|Coreopsys Informatica|Bologna|http://www.coreopsys.it||
+Castel Maggiore|Sptech di Fabio Scazzieri|Bologna|http://www.sptech.it|Via dei Lapidari 18/11A|
+Codigoro|Zetasistemi|Ferrara|http://www.zetasistemi.it/||
+Correggio|WebLan|Reggio Emilia|http://www.web-lan.it/||
+Faenza|Perfect Circle|Ravenna|http://perfectcircle.it||
+Faenza|Infocenter|Ravenna|http://www.aaz.it|Corso Garibaldi 33|
+Lugo|BitLine|Ravenna|http://www.bitlinecomputers.com|Via Concordia 7/1|
+Modena|E. Sistem Personal Computer|Modena|http://www.esistem.net|via Luosi 177-179|
+Modena|Ferrari Computers|Modena|http://www.ferrari-computers.it/|Via Gian Maria Barbieri 30|
+Modena|Informanet|Modena|http://www.informanet.mo.it||
+Modena|Massarenti Franco|Modena|http://www.massarenti.com||
+Modena|TeraByte Lab|Modena|http://www.tblab.it|Via Antonio Araldi 263/265|
+Parma|XNet|Parma|http://www.xnet-solutions.it||
+Ravenna|AlfaNumerica|Ravenna|http://www.alfanumerica.com|Via Monte Cimone 5|
+Rimini|Laser Office|Rimini|http://www.laseroffice.it/blog/about/||
+Rimini|Computer System|Rimini|https://www.computersystemrimini.it|Via Bidente 1/M|
+Rimini|Corimtec|Rimini|http://www.corimtec.com||
+Sassuolo|Soft-Net|Modena|http://www.soft-net.it|Via Adda 50/G|
+Savignano sul Rubicone|Electronics Adriatica|Forlì-Cesena|http://www.electronicsadriatica.it|Via Francesco Baracca 9|
+Soliera|Laboratori Aidan|Modena|http://www.aidan.it||
