@@ -29,35 +29,29 @@ function sort_by_province ($a, $b) {
 	return $cmp;
 }
 
-try {
-	if ($_SERVER["SCRIPT_NAME"] === '/regioni/index.php') { # qui se sono stato invocato alla vecchia maniera
-		require_once ('../funzioni.php');
-		$db_regione = array();
+if (preg_match('/regioni/index\.php$/', $_SERVER["SCRIPT_NAME"])) { # qui se sono stato invocato alla vecchia maniera
+	require_once ('../funzioni.php');
+	$db_regione = array();
 
-		foreach(glob('../db/*.txt') as $db_file) {
-			$db_regione = array_merge($db_regione, file($db_file));
-		}
-
-		$db_file = null;
-		$regione = 'Italia';
-		$title = 'LinuxSi: i negozi italiani';
+	foreach(glob('../db/*.txt') as $db_file) {
+		$db_regione = array_merge($db_regione, file($db_file));
 	}
-	else { # qui sono stato invocato da /regioni/nome-regione/
-		require_once ('../../funzioni.php');
-		$regione = explode('/', dirname($_SERVER["SCRIPT_NAME"]))[2]; # estraggo la regione dal percorso
 
-		if(array_key_exists($regione, $elenco_regioni)) { # lasciamo il controllo, ma in ogni caso dovremmo ottenere un 404
-			$db_file = '../../db/' . $regione . '.txt';
-			$db_regione = file($db_file);
-			$title = 'LinuxSi: ' . $elenco_regioni[$regione];
-		} else {
-			header("location: /");
-		}
-	}
+	$db_file = null;
+	$regione = 'Italia';
+	$title = 'LinuxSi: i negozi italiani';
 }
-catch(Exception $e) {
-	echo "Errore inizializzazione accesso pagina regione: " . $e->getMessage();
-	exit();
+else { # qui sono stato invocato da /regioni/nome-regione/
+	require_once ('../../funzioni.php');
+	$regione = explode('/', dirname($_SERVER["SCRIPT_NAME"]))[2]; # estraggo la regione dal percorso
+
+	if(array_key_exists($regione, $elenco_regioni)) { # lasciamo il controllo, ma in ogni caso dovremmo ottenere un 404
+		$db_file = '../../db/' . $regione . '.txt';
+		$db_regione = file($db_file);
+		$title = 'LinuxSi: ' . $elenco_regioni[$regione];
+	} else {
+		header("location: /");
+	}
 }
 
 lugheader ($title);
@@ -65,7 +59,7 @@ usort ($db_regione, 'sort_by_province');
 
 ?>
 
-<div id="center">
+<div id="center" class="mt-5">
 	<h1 class="titoloregione"><?php echo substr($title, 8) ?></h1>
 	<p class="pull-right text-right">
 		<a href="/">&raquo; torna all'indice&nbsp;</a>
@@ -130,13 +124,14 @@ usort ($db_regione, 'sort_by_province');
 
 	<p class="pull-right text-right">
 		<?php if ($db_file != null) { ?>
-		<a href="<?php echo $db_file ?>">&raquo; Elenco in formato CSV&nbsp;</a><br />
+			<a href="<?php echo $db_file ?>">&raquo; Elenco in formato CSV&nbsp;</a><br />
 		<?php } else { ?>
-		<br />
+			<br />
 		<?php } ?>
 		<?php ultimo_aggiornamento(); ?>
 	</p>
 </div>
 
-<?php lugfooter (); ?>
+<?php
+lugfooter ();
 
