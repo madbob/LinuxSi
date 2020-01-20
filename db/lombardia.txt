@@ -1,13 +1,10 @@
 Bergamo|KOAN s.a.s.|Bergamo|http://www.koala.it|Piazza Varsavia 14|
 Cazzano Sant'Andrea|Sunflower Computers|Bergamo|http://www.sunflower-computers.com||
-Azzano San Paolo|CD Bergamo|Bergamo|https://www.cdbergamo.it||
-Mantova|License Free Shop|Mantova|http://www.licfreeshop.com/||
-Calcinato|Infogest Informatica|Brescia|https://infogest.pro/|Via Carlo Alberto 47/49|
+Calcinato|Infogest Informatica|Brescia|https://infogest.pro/|Via Carlo Alberto 47/49|45.4590,10.4199
 Bovezzo|Modicia|Brescia|http://www.modicia.com/||
-Pozzolengo|3MP Computer|Brescia|http://www.3mpcomputer.it|Via Santa Maria 24|
-Rovato|Rovato Computer|Brescia|https://www.rovatocomputer.com/|Via Rudone 25|
-Fenegrò|Mediaservice|Como|http://www.mediaservicesnc.it/|Via Roma 27|
+Pozzolengo|3MP Computer|Brescia|http://www.3mpcomputer.it|Via Santa Maria 24|45.4004,10.6291
+Rovato|Rovato Computer|Brescia|https://www.rovatocomputer.com/|Via Rudone 25|45.5622,9.9963
+Fenegrò|Mediaservice|Como|http://www.mediaservicesnc.it/|Via Roma 27|45.7006,8.9985
 Lecco|YetOpen|Lecco|http://www.yetopen.it/|Via Salerno 18|
-Rho|PC Generation|Milano|http://www.pcgen.it|Piazza Don Minzoni|
-Vigevano|Dr. Stein|Pavia|http://www.drstein.it|Corso Novara 22|
-Pavia|Get Ready|Pavia|https://www.getready.it|Viale della Libertà 23/E|
+Rho|PC Generation|Milano|http://www.pcgen.it|Piazza Don Minzoni|45.5283,9.0491
+Pavia|Get Ready|Pavia|https://www.getready.it|Viale della Libertà 23/E|45.1856,9.1465
