@@ -2,10 +2,8 @@
 
 # questo è lo script che si occupa dell'aggiornamento di http://linuxsi.com/
 # pigliando il relativo branch da GitHub.
-# Bada che questo script non viene eseguito in automatico, sicché eventuali
-# modifiche vanno segnalate a Fabio Invernizzi <fabulus@linux.it>
 
-PATH_SITO='/var/www/linuxsi'
+PATH_SITO='/var/www/LinuxSi'
 
 fallito_aggiornamento() {
 	# segnalo via mail problemi sull'aggiornamento, se possibile
@@ -17,8 +15,8 @@ fallito_aggiornamento() {
 
 cd $PATH_SITO
 
-su -c "/usr/bin/git pull -q git://github.com/madbob/LinuxSi.git master" www-data || fallito_aggiornamento
-su -c "/bin/date -d @$(git log -n 1 --pretty='%at')  > .ultimo_commit" www-data
+git pull || fallito_aggiornamento
+date -d @$(git log -n 1 --pretty='%at')  > .ultimo_commit
 
-/usr/bin/php map-generator.sh
+php map-generator.sh
 
