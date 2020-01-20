@@ -37,10 +37,10 @@ lugheader ('LinuxSi');
 		</div>
 
 		<div class="col-md-5 hidden-xs hidden-md">
+			<div id="paper"></div>
 			<script src="js/raphael-min.js" type="text/javascript" charset="utf-8"></script>
 			<script type="text/javascript" charset="utf-8">
-
-			window.onload = function () {
+			(function() {
 				var R = Raphael("paper", 350, 400);
 				var attr = {
 					fill: "#ffa200",
@@ -76,6 +76,10 @@ lugheader ('LinuxSi');
 
 				var current = null;
 				for (var state in ita) {
+					// Caldamente consigliato per evitare di iterare su proprietà interne/intrinseche/strane
+					if(!ita.hasOwnProperty(state)) {
+						continue;
+					}
 					ita[state].color = Raphael.getColor();
 					(function (st, state) {
 						st[0].style.cursor = "pointer";
@@ -96,10 +100,8 @@ lugheader ('LinuxSi');
 						};
 					})(ita[state], state);
 				}
-			};
+			}());
 			</script>
-
-			<div id="paper"></div>
 		</div>
 
 		<div class="col-md-3 col-sm-12">
