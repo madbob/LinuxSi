@@ -29,7 +29,7 @@ function sort_by_province ($a, $b) {
 	return $cmp;
 }
 
-if (preg_match('/regioni/index\.php$/', $_SERVER["SCRIPT_NAME"])) { # qui se sono stato invocato alla vecchia maniera
+if (preg_match('/regioni\/index\.php$/', $_SERVER["SCRIPT_NAME"])) { # qui se sono stato invocato alla vecchia maniera
 	require_once ('../funzioni.php');
 	$db_regione = array();
 
