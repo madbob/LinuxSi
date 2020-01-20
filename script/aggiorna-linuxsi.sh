@@ -18,5 +18,5 @@ cd $PATH_SITO
 git pull || fallito_aggiornamento
 date -d @$(git log -n 1 --pretty='%at')  > .ultimo_commit
 
-php map-generator.sh
+php map-generator.php
 
