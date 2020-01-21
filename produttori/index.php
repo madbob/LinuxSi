@@ -339,6 +339,7 @@ lugheader ('Produttori Linux-friendly',
 						aggregate su
 					</p>
 					<ul>
+						<li><a href="https://linux-hardware.org/">Linux Hardware</a></li>
 						<li><a href="http://linux-laptop.net/">Linux on Laptops</a></li>
 						<li><a href="http://www.ubuntu.com/certification/desktop/">Ubuntu Certified Hardware</a></li>
 					</ul>
