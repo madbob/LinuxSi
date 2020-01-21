@@ -87,14 +87,6 @@ lugheader ('Produttori Linux-friendly',
 			'icon' => 'acer.png',
 			'website' => 'http://www.acer.it/',
 		),
-		'compaq' => array (
-			'icon' => 'compaq.png',
-			'website' => 'http://www.compaq.com/',
-		),
-		'ibm' => array (
-			'icon' => 'ibm.png',
-			'website' => 'http://www.ibm.com/it/',
-		),
 		'toshiba' => array (
 			'icon' => 'toshiba.png',
 			'website' => 'http://www.toshiba.it/',
@@ -173,6 +165,10 @@ lugheader ('Produttori Linux-friendly',
 	$contents = simplexml_load_string ($c);
 
 	foreach ($contents->device as $device) {
+		if ($device->year < (date('Y') - 10)) {
+			continue;
+		}
+
 		$vendor = (string) $device->vendor;
 		$compatibility = (string) $device->compatibility;
 
@@ -220,7 +216,7 @@ lugheader ('Produttori Linux-friendly',
 
 	?>
 
-	<div class="scale">
+	<div class="scale mb-4">
 		<div class="section">
 
 			<?php
@@ -232,7 +228,6 @@ lugheader ('Produttori Linux-friendly',
 				$n = $vendor->lname;
 
 				if (array_key_exists ($vendor->lname, $vendors) == false) {
-					// log_mail ('Nuovo produttore non gestito: ' . $vendor->name);
 					continue;
 				}
 
@@ -337,19 +332,14 @@ lugheader ('Produttori Linux-friendly',
 				<li>
 					<p>
 						<b>la compatibilità dell'hardware</b>: non per tutti i componenti si trovano sempre drivers utilizzabili
-						su Linux, o che lo facciano funzionare perfettamente. E' consigliato prima dare una occhiata alle recensioni
+						su Linux, o che lo facciano funzionare perfettamente. E' consigliato prima dare una occhiata alle informazioni
 						aggregate su
 					</p>
 					<ul>
-						<li><a href="http://tuxmobil.org/mylaptops.html">Tux Mobil</a></li>
-						<li><a href="http://www.linuxcompatible.org/compatdb/lists/hardware_linux.html">Linux Compatible</a></li>
-						<li><a href="http://www.linuxquestions.org/hcl/index.php?cat=507">Linux Questions</a></li>
 						<li><a href="http://linux-laptop.net/">Linux on Laptops</a></li>
+						<li><a href="http://www.ubuntu.com/certification/desktop/">Ubuntu Certified Hardware</a></li>
 					</ul>
-					<p>
-						oppure consultare l'elenco di
-						<a href="http://www.ubuntu.com/certification/desktop/">computer certificati per Ubuntu</a>.
-					</p>
+					<br>
 				</li>
 
 				<li>

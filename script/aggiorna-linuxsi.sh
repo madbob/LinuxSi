@@ -17,6 +17,7 @@ cd $PATH_SITO
 
 git pull || fallito_aggiornamento
 date -d @$(git log -n 1 --pretty='%at')  > .ultimo_commit
+wget https://h-node.org/download/notebooks/en -O data/hardware.xml
 
 php map-generator.php
 
