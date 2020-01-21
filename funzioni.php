@@ -74,13 +74,13 @@ function lugheader ($title, $extracss = null, $extrajs = null, $reduced = false)
 	<meta name="twitter:title" content="LinuxSi" />
 	<meta name="twitter:creator" content="@ItaLinuxSociety" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:url" content="http://www.linuxsi.com/" />
-	<meta name="twitter:image" content="http://www.linuxsi.com/immagini/tw.png" />
+	<meta name="twitter:url" content="https://linuxsi.com/" />
+	<meta name="twitter:image" content="https://linuxsi.com/immagini/tw.png" />
 
 	<meta property="og:site_name" content="LinuxSi" />
 	<meta property="og:title" content="LinuxSi" />
-	<meta property="og:url" content="http://www.linuxsi.com/" />
-	<meta property="og:image" content="http://www.linuxsi.com/immagini/fb.png" />
+	<meta property="og:url" content="https://linuxsi.com/" />
+	<meta property="og:image" content="https://linuxsi.com/immagini/fb.png" />
 	<meta property="og:type" content="website" />
 	<meta property="og:country-name" content="Italy" />
 	<meta property="og:email" content="webmaster@linux.it" />
@@ -89,7 +89,7 @@ function lugheader ($title, $extracss = null, $extrajs = null, $reduced = false)
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
 
 	<?php
 
@@ -218,7 +218,7 @@ function ultimo_aggiornamento () {
 	}
 
 	?>
-	<a href="http://github.com/madbob/LinuxSi/commits/master">&raquo; Aggiornato al <?php print $last_update ?>&nbsp;</a><br />
+	<a href="https://github.com/madbob/LinuxSi/commits/master">&raquo; Aggiornato al <?php print $last_update ?>&nbsp;</a><br />
 	<a href="mailto:webmaster@linux.it?subject=LinuxSi: segnalazione aggiornamento/errore/refuso">&raquo; Segnala&nbsp;</a>
 	<?php
 }
