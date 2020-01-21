@@ -181,22 +181,25 @@ function lugfooter () {
 	<div style="clear: both"></div>
 </div>
 
-<!-- Piwik -->
+<!-- Matomo -->
 <script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['disableCookies']);
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setDomains", ["*.linuxsi.com"]]);
   _paq.push(['trackPageView']);
+  _paq.push(['disableCookies']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u="//pergamena.lugbs.linux.it/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 10]);
+    var u="//stats.madbob.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '15']);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<noscript><p><img src="//pergamena.lugbs.linux.it/piwik.php?idsite=10" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
+<noscript><p><img src="//stats.madbob.org/matomo.php?idsite=15&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
 
 </body>
 </html>
