@@ -288,22 +288,25 @@ lugheader ('Produttori Linux-friendly',
 				?>
 
 				<div class="vendorsummary" id="<?php echo $n ?>">
-					<img src="icone/<?php echo $icon ?>">
-					<div class="info pull-right">
-						<h2><?php echo $m->name ?></h2>
-						<p><a href="<?php echo $web ?>" target="_blank"><?php echo $web ?></a></p>
+					<div class="row">
+						<div class="col-3 offset-1">
+							<img src="icone/<?php echo $icon ?>">
+						</div>
+						<div class="col-7">
+							<h2><?php echo $m->name ?></h2>
+							<p><a href="<?php echo $web ?>" target="_blank"><?php echo $web ?></a></p>
 
-						<div class="details">
-							I modelli testati per questo produttore sono:
-
-							<br/>
-							<div>
-								<?php foreach ($scale as $level => $s): ?>
-									<div class="label"><?php echo $level ?></div>
-									<div class="barwrap">
-										<div class="bar" style="width: <?php echo $s ?>%"></div>
-									</div>
-								<?php endforeach ?>
+							<div class="details">
+								I modelli testati per questo produttore sono:
+								<br/>
+								<div>
+									<?php foreach ($scale as $level => $s): ?>
+										<div class="label"><?php echo $level ?></div>
+										<div class="barwrap">
+											<div class="bar" style="width: <?php echo $s ?>%"></div>
+										</div>
+									<?php endforeach ?>
+								</div>
 							</div>
 						</div>
 					</div>

@@ -39,29 +39,6 @@
 	clear: both;
 	padding: 10px;
 	clear: both;
-	height: 260px;
-}
-
-.vendorsummary img {
-	float: left;
-	margin-right: 20px;
-}
-
-.vendorsummary h2 {
-	margin: 5px;
-}
-
-.vendorsummary p {
-	margin: 9px;
-}
-
-.details {
-	display: block;
-	margin-left: 10px;
-}
-
-.details .row {
-	display: block;
 }
 
 .details .label {
@@ -82,4 +59,3 @@
 	background-color: #DDD;
 	border: 1px solid #EEE;
 }
-
