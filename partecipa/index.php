@@ -30,10 +30,10 @@ lugheader ('Partecipa');
 				<a href="mailto:webmaster@linux.it">Contattaci</a> per segnalare negozi non ancora indicizzati, negozi non più esistenti, per commenti, o per chiederci di inviarti (gratuitamente) l'adesivo LinuxSi da applicare sulla tua vetrina (rotondo, diametro 7cm, bianco, plastificato per esterni).
 			</p>
 			<p>
-				Nota bene: vengono approvati solo i rivenditori che hanno un sito, e sul sito viene espressamente citata l'attività di vendita di computer con Linux o senza sistema operativo!
+				Segnalando un nuovo negozio è gradita l'indicazione di un sito web di riferimento, su cui venga espressamente citata l'attività di vendita di computer con Linux (o senza sistema operativo) o di assistenza e supporto a Linux.
 			</p>
 			<p>
-				Sarebbe inoltre utile verificare personalmente che i rivenditori qui elencati esistano davvero, magari facendoci un salto. Esiste davvero il negozio? Vendono quello che dicono di vendere? Conoscono Linux? Facci sapere!
+				È inoltre utile verificare che i rivenditori qui elencati esistano davvero, magari facendoci un salto. Esiste davvero il negozio? È ancora in attività? Vendono quello che dicono di vendere? Conoscono Linux? Facci sapere!
 			</p>
 			<p>
 				Puoi inoltre partecipare direttamente alla stesura del codice e del database, accedendo al <a href="http://github.com/madbob/LinuxSi">repository GitHub</a>. Il codice sorgente del sito è distribuito con licenza <a href="http://www.gnu.org/licenses/agpl-3.0-standalone.html">AGPLv3</a>, mentre i dati sono pubblicati in licenza <a href="http://creativecommons.org/publicdomain/zero/1.0/legalcode">CC0</a>.
