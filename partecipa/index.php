@@ -27,7 +27,7 @@ lugheader ('Partecipa');
 	<div class="row">
 		<div class="col-md-8">
 			<p>
-				<a href="mailto:webmaster@linux.it">Contattaci</a> per segnalare negozi non ancora indicizzati, negozi non più esistenti, per commenti, o per chiederci di inviarti (gratuitamente) l'adesivo LinuxSi da applicare sulla tua vetrina (rotondo, diametro 7cm, bianco, plastificato per esterni).
+				<a href="mailto:webmaster@linux.it">Contattaci</a> per segnalare negozi non ancora indicizzati, negozi non più esistenti, per commenti, o per chiederci di inviarti (gratuitamente) l'<strong>adesivo LinuxSi</strong> da applicare sulla tua vetrina (rotondo, diametro 7cm, bianco, plastificato per esterni).
 			</p>
 			<p>
 				Segnalando un nuovo negozio è gradita l'indicazione di un sito web di riferimento, su cui venga espressamente citata l'attività di vendita di computer con Linux (o senza sistema operativo) o di assistenza e supporto a Linux.
@@ -36,7 +36,10 @@ lugheader ('Partecipa');
 				È inoltre utile verificare che i rivenditori qui elencati esistano davvero, magari facendoci un salto. Esiste davvero il negozio? È ancora in attività? Vendono quello che dicono di vendere? Conoscono Linux? Facci sapere!
 			</p>
 			<p>
-				Puoi inoltre partecipare direttamente alla stesura del codice e del database, accedendo al <a href="http://github.com/madbob/LinuxSi">repository GitHub</a>. Il codice sorgente del sito è distribuito con licenza <a href="http://www.gnu.org/licenses/agpl-3.0-standalone.html">AGPLv3</a>, mentre i dati sono pubblicati in licenza <a href="http://creativecommons.org/publicdomain/zero/1.0/legalcode">CC0</a>.
+				Puoi anche partecipare direttamente alla stesura del codice e del database, accedendo al <a href="http://github.com/madbob/LinuxSi">repository GitHub</a>. Il codice sorgente del sito è distribuito con licenza <a href="http://www.gnu.org/licenses/agpl-3.0-standalone.html">AGPLv3</a>, mentre i dati sono pubblicati in licenza <a href="http://creativecommons.org/publicdomain/zero/1.0/legalcode">CC0</a>.
+			</p>
+			<p>
+				Nota bene: LinuxSi è una iniziativa rivolta al pubblico domestico. Se offri assistenza ad un pubblico professionale, ad esempio su server e dispositivi embedded, puoi valutare di promuovere la tua attività con una <a href="http://www.ils.org/sponsorizzazioni">sponsorizzazione a Italian Linux Society</a>.
 			</p>
 
 			<hr />

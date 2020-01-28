@@ -28,7 +28,7 @@ lugheader ('LinuxSi');
 		<div class="col-md-4">
 			<div>
 				<p>
-					Su LinuxSi trovi un elenco quanto pi&ugrave; aggiornato e dettagliato possibile sui negozi in cui acquistare nuovi PC con <a href="http://www.linux.it/">Linux</a> preinstallato o comunque senza sistema operativo (e sul cui prezzo non va dunque a pesare il costo di una nuova licenza), o dove trovare assistenza e supporto per Linux.
+					Su LinuxSi trovi un elenco quanto pi&ugrave; aggiornato e dettagliato possibile sui negozi in cui acquistare nuovi PC con <a href="http://www.linux.it/">Linux</a> preinstallato o comunque senza sistema operativo (e sul cui prezzo non va dunque a pesare il costo di una nuova licenza), o dove trovare assistenza e supporto per il tuo computer Linux.
 				</p>
 				<p>
 					È disponibile <a href="/regioni">l'elenco completo di tutti i negozi</a> ordinati per provincia e una pagina dedicata alle <a href="/statistiche.php">statistiche</a>.
