@@ -1,1 +1,3 @@
+Bolzano|CompuTech|Bolzano|https://www.computechbz.it/|Via Sassari 24/d|46.48879,11.32210
+Merano|NotebookPoint|Bolzano|https://notebookpoint.it/|Via Cavour 40/42|46.66829,11.16732
 Pergine Valsugana|GigaShop|Trento|http://www.gigashop.it|Viale Dante 106|46.0637,11.2321
