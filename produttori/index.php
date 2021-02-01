@@ -294,7 +294,7 @@ lugheader ('Produttori Linux-friendly',
 						</div>
 						<div class="col-7">
 							<h2><?php echo $m->name ?></h2>
-							<p><a href="<?php echo $web ?>" target="_blank"><?php echo $web ?></a></p>
+							<p><a rel="nofollow" href="<?php echo $web ?>" target="_blank"><?php echo $web ?></a></p>
 
 							<div class="details">
 								I modelli testati per questo produttore sono:
@@ -318,7 +318,7 @@ lugheader ('Produttori Linux-friendly',
 	<div class="row">
 		<div class="col-md-12">
 			<p>
-				Le statistiche sono elaborate a partire dai dati disponibili su <a href="http://h-node.org/">h-node</a>,
+				Le statistiche sono elaborate a partire dai dati disponibili su <a rel="nofollow" href="http://h-node.org/">h-node</a>,
 				piattaforma di valutazione della compatibilità dell'hardware con Linux cui vi invitiamo a partecipare per
 				arricchire le informazioni a disposizione.
 			</p>
@@ -339,9 +339,9 @@ lugheader ('Produttori Linux-friendly',
 						aggregate su
 					</p>
 					<ul>
-						<li><a href="https://linux-hardware.org/">Linux Hardware</a></li>
-						<li><a href="http://linux-laptop.net/">Linux on Laptops</a></li>
-						<li><a href="http://www.ubuntu.com/certification/desktop/">Ubuntu Certified Hardware</a></li>
+						<li><a rel="nofollow" href="https://linux-hardware.org/">Linux Hardware</a></li>
+						<li><a rel="nofollow" href="http://linux-laptop.net/">Linux on Laptops</a></li>
+						<li><a rel="nofollow" href="http://www.ubuntu.com/certification/desktop/">Ubuntu Certified Hardware</a></li>
 					</ul>
 					<br>
 				</li>

@@ -126,9 +126,11 @@ function lugheader ($title, $extracss = null, $extrajs = null, $reduced = false)
 		<a class="generalink" href="/partecipa">Partecipa</a>
 
 		<p class="social mt-2">
-			<a href="https://twitter.com/ItaLinuxSociety"><img src="//www.ils.org/sites/all/themes/linuxday2/images/twitter.png"></a>
-			<a href="https://www.facebook.com/ItaLinuxSociety/"><img src="//www.ils.org/sites/all/themes/linuxday2/images/facebook.png"></a>
-			<a href="https://github.com/madbob/LinuxSi"><img src="//www.ils.org/sites/all/themes/linuxday2/images/github.png"></a>
+			<a href="https://twitter.com/ItaLinuxSociety"><img src="https://www.linux.it/shared/?f=immagini/twitter.svg"></a>
+			<a href="https://www.facebook.com/ItaLinuxSociety/"><img src="https://www.linux.it/shared/?f=immagini/facebook.svg"></a>
+			<a href="https://www.instagram.com/ItaLinuxSociety"><img src="https://www.linux.it/shared/?f=immagini/instagram.svg"></a>
+			<a href="https://mastodon.uno/@ItaLinuxSociety/"><img src="https://www.linux.it/shared/?f=immagini/mastodon.svg"></a>
+			<a href="https://github.com/madbob/LinuxSi"><img src="https://www.linux.it/shared/?f=immagini/github.svg"></a>
 		</p>
 	</div>
 </div>
@@ -144,27 +146,26 @@ function lugfooter () {
 		<div class="row">
 			<div class="col-md-3">
 				<span style="text-align: center; display: block">
-					<a href="https://www.gnu.org/licenses/agpl-3.0-standalone.html" rel="license">
-						<img src="https://www.linux.it/shared/index.php?f=immagini/agpl3.svg" style="border-width:0" alt="AGPLv3 License">
+					<a rel="nofollow" href="https://www.gnu.org/licenses/agpl-3.0-standalone.html" rel="license">
+						<img src="https://www.linux.it/shared/index.php?f=immagini/agpl3.svg" style="border-width:0" loading="lazy" alt="AGPLv3 License">
 					</a>
 
-					<a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en_US" rel="license">
-						<img src="https://www.linux.it/shared/index.php?f=immagini/cczero.png" style="border-width:0" alt="Creative Commons License">
+					<a rel="nofollow" href="https://creativecommons.org/publicdomain/zero/1.0/deed.en_US" rel="license">
+						<img src="https://www.linux.it/shared/index.php?f=immagini/cczero.png" style="border-width:0" loading="lazy" alt="Creative Commons License">
 					</a>
 				</span>
 			</div>
 
 			<div class="col-md-3">
 				<h2>RESTA AGGIORNATO!</h2>
-				<script type="text/javascript" src="https://www.linux.it/external/widgetnewsletter.js"></script>
-				<div id="widgetnewsletter"></div>
+				<iframe title="Newsletter ILS" src="https://mautic.ldto.it/form/1" width="100%" height="420" frameBorder="0"><p>Your browser does not support iframes.</p></iframe>
 			</div>
 
 			<div class="col-md-3">
 				<h2>Amici</h2>
 				<p style="text-align: center">
 					<a href="https://www.ils.org/info#aderenti">
-						<img src="https://www.ils.org/sites/ils.org/files/associazioni/getrand.php" border="0" /><br />
+						<img src="https://www.ils.org/external/getrandlogo.php" border="0" loading="lazy" alt="Aderenti a Italian Linux Society" /><br />
 						Scopri tutte le associazioni che hanno aderito a ILS.
 					</a>
 				</p>
@@ -172,8 +173,8 @@ function lugfooter () {
 
 			<div class="col-md-3">
 				<h2>Network</h2>
-				<script type="text/javascript" src="https://www.linux.it/external/widgetils.php?referrer=sicurezza"></script>
-				<div id="widgetils"></div>
+				<script type="text/javascript" src="https://www.ils.org/external/widgetils.js" defer></script>
+    				<div id="widgetils"></div>
 			</div>
 		</div>
 	</div>
@@ -226,4 +227,3 @@ function ultimo_aggiornamento () {
 function log_mail ($message) {
 	mail ('webmaster@linux.it', 'errore su linuxsi.com', $message . "\n", 'From: linux.it <webmaster@linux.it>' . "\r\n");
 }
-

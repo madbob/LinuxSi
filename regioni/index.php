@@ -108,7 +108,7 @@ usort ($db_regione, 'sort_by_province');
 					<?php if($sito === ''): ?>
 					<td><?php echo $denominazione ?></td>
 					<?php else: ?>
-					<td><a href="<?php echo $sito ?>"><?php echo $denominazione ?></a></td>
+					<td><a rel="nofollow" href="<?php echo $sito ?>"><?php echo $denominazione ?></a></td>
 					<?php endif ?>
 					<?php if($indirizzo === ''): ?>
 					<td></td>
