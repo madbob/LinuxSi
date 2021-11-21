@@ -342,6 +342,7 @@ lugheader ('Produttori Linux-friendly',
 						<li><a rel="nofollow" href="https://linux-hardware.org/">Linux Hardware</a></li>
 						<li><a rel="nofollow" href="http://linux-laptop.net/">Linux on Laptops</a></li>
 						<li><a rel="nofollow" href="http://www.ubuntu.com/certification/desktop/">Ubuntu Certified Hardware</a></li>
+						<li><a rel="nofollow" href="https://wiki.debian.org/InstallingDebianOn">DebianOn</a></li>
 					</ul>
 					<br>
 				</li>
