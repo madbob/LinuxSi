@@ -158,7 +158,7 @@ function lugfooter () {
 
 			<div class="col-md-3">
 				<h2>RESTA AGGIORNATO!</h2>
-				<iframe title="Newsletter ILS" src="https://mautic.ldto.it/form/1" width="100%" height="420" frameBorder="0"><p>Your browser does not support iframes.</p></iframe>
+				<iframe title="Newsletter ILS" src="https://crm.linux.it/form/1" width="100%" height="430" frameBorder="0"><p>Your browser does not support iframes.</p></iframe>
 			</div>
 
 			<div class="col-md-3">
@@ -166,7 +166,7 @@ function lugfooter () {
 				<p style="text-align: center">
 					<a href="https://www.ils.org/info#aderenti">
 						<img src="https://www.ils.org/external/getrandlogo.php" border="0" loading="lazy" alt="Aderenti a Italian Linux Society" /><br />
-						Scopri tutte le associazioni che hanno aderito a ILS.
+						Scopri tutte le associazioni e le aziende che hanno aderito a Italian Linux Society.
 					</a>
 				</p>
 			</div>
