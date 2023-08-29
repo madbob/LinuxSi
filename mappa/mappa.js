@@ -1,5 +1,5 @@
 var map, layer;
-var layerurl = 'https://{s}.tile.osm.org/{z}/{x}/{y}.png';
+var layerurl = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
 var attr = 'Map Data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors';
 
 var MapIcon = L.Icon.extend({
