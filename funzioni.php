@@ -183,20 +183,21 @@ function lugfooter () {
 </div>
 
 <!-- Matomo -->
-<script type="text/javascript">
-  var _paq = window._paq || [];
-  _paq.push(['disableCookies']);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//stats.madbob.org/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '15']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
+<script>
+	var _paq = window._paq = window._paq || [];
+	_paq.push(["setDoNotTrack", true]);
+	_paq.push(["disableCookies"]);
+	_paq.push(['trackPageView']);
+	_paq.push(['enableLinkTracking']);
+	(function() {
+		var u="//stats.linux.it/";
+		_paq.push(['setTrackerUrl', u+'matomo.php']);
+		_paq.push(['setSiteId', '10']);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+	})();
 </script>
-<noscript><p><img src="//stats.madbob.org/matomo.php?idsite=15&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<noscript><p><img src="//stats.linux.it/matomo.php?idsite=10&amp;rec=1" style="border:0;" alt="" /></p></noscript>
 <!-- End Matomo Code -->
 
 </body>
